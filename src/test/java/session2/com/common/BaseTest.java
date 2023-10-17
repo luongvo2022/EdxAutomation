@@ -25,7 +25,7 @@ public class BaseTest {
 		WebDriver driver = ThreadGuard.protect(new TargetFactory().createInstance(browser)); //run paral with nhieu thread
 		DriverManager.setDriver(driver);
 		driver.manage().window().maximize();
-		WebElementsHelpers.getURL("https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-complex-data?utm_source=lms_catalog_service_user&utm_medium=affiliate_partner");
+		WebElementsHelpers.getURL("https://www.edx.org/learn/computer-programming/university-of-british-columbia-software-construction-object-oriented-design");
 		
 	}
 
