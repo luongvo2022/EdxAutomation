@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-16T22:00:32 ICT" name="Default suite" finished-at="2023-10-16T22:00:39 ICT" duration-ms="7724">
+  <suite started-at="2023-10-25T20:46:44 ICT" name="Default suite" finished-at="2023-10-25T20:47:34 ICT" duration-ms="49993">
     <groups>
     </groups>
-    <test started-at="2023-10-16T22:00:32 ICT" name="Default test" finished-at="2023-10-16T22:00:39 ICT" duration-ms="7724">
-      <class name="session2.com.testcases.EdxTest">
-        <test-method is-config="true" signature="BeginWebTest(java.lang.String)[pri:0, instance:session2.com.testcases.EdxTest@1921ad94]" started-at="2023-10-16T22:00:32 ICT" name="BeginWebTest" finished-at="2023-10-16T22:00:38 ICT" duration-ms="6059" status="PASS">
+    <test started-at="2023-10-25T20:46:44 ICT" name="Default test" finished-at="2023-10-25T20:47:34 ICT" duration-ms="49993">
+      <class name="Edx.com.testcases.EdxTest">
+        <test-method is-config="true" signature="BeginWebTest(java.lang.String)[pri:0, instance:Edx.com.testcases.EdxTest@1921ad94]" started-at="2023-10-25T20:46:44 ICT" name="BeginWebTest" finished-at="2023-10-25T20:46:48 ICT" duration-ms="4150" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeginWebTest -->
-        <test-method signature="EdxAutomation()[pri:0, instance:session2.com.testcases.EdxTest@1921ad94]" started-at="2023-10-16T22:00:38 ICT" name="EdxAutomation" finished-at="2023-10-16T22:00:39 ICT" duration-ms="1097" status="PASS">
+        <test-method signature="EdxAutomation()[pri:0, instance:Edx.com.testcases.EdxTest@1921ad94]" started-at="2023-10-25T20:46:48 ICT" name="EdxAutomation" finished-at="2023-10-25T20:47:34 ICT" duration-ms="45146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EdxAutomation -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:session2.com.testcases.EdxTest@1921ad94]" started-at="2023-10-16T22:00:39 ICT" name="closeDriver" finished-at="2023-10-16T22:00:39 ICT" duration-ms="453" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Edx.com.testcases.EdxTest@1921ad94]" started-at="2023-10-25T20:47:34 ICT" name="closeDriver" finished-at="2023-10-25T20:47:34 ICT" duration-ms="556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-      </class> <!-- session2.com.testcases.EdxTest -->
+      </class> <!-- Edx.com.testcases.EdxTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="session2.com.testcases.EdxTest">
+      <class name="Edx.com.testcases.EdxTest">
         <methods>
-          <include name="EdxAutomation"/>
-          <include name="BeginWebTest"/>
           <include name="closeDriver"/>
+          <include name="BeginWebTest"/>
+          <include name="EdxAutomation"/>
         </methods>
-      </class> <!-- session2.com.testcases.EdxTest -->
+      </class> <!-- Edx.com.testcases.EdxTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
