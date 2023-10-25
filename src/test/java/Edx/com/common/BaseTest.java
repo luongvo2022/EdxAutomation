@@ -21,11 +21,12 @@ public class BaseTest {
 //	    browser=userinput.getBrowser();
 //	    userinput.closeScanner();
 	    //Create Driver
+//		PropertiesHelpers.loadAllFiles();
 		System.setProperty("webdriver.http.factory", "jdk-http-client"); //xu ly exception
 		WebDriver driver = ThreadGuard.protect(new TargetFactory().createInstance(browser)); //run paral with nhieu thread
 		DriverManager.setDriver(driver);
 		driver.manage().window().maximize();
-		WebElementsHelpers.getURL("https://www.edx.org/learn/happiness/university-of-california-berkeley-the-foundations-of-happiness-at-work?webview=false&campaign=The+Foundations+of+Happiness+at+Work&source=edx&product_category=course");
+//		WebElementsHelpers.getURL("https://www.edx.org/learn/happiness/university-of-california-berkeley-the-foundations-of-happiness-at-work?webview=false&campaign=The+Foundations+of+Happiness+at+Work&source=edx&product_category=course");
 		
 	}
 

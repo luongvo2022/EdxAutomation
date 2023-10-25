@@ -13,21 +13,19 @@ import java.util.List;
 import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
+import session2.com.helpers.WebElementsHelpers;
 import session2.com.utils.UserInput;
 import static session2.com.helpers.WebElementsHelpers.*;
 
 @Epic("Regression Test")
 @Feature("Edx Test")
 public class EdxTest extends BaseTest {
-	private static final String fontDefault="Calibri";
-	private static final double sizeDefault=13.5;
-	private static final String colorDefault="0f0b01";
-	private static final String blueColor="34a0c4";
 	public String userName="luongvo2022";
 	public String password="kdAVt6`m";
 	@Test(priority = 0)
 	public void EdxAutomation() {
-		
+		String URL=System.getenv("Course URL");
+		getURL(URL);
 		EdxOverviewPage edxOverview= new EdxOverviewPage();
 		WordDocumentWriter doc=new WordDocumentWriter();
 		String durationCourse=edxOverview.getDurationCourse();

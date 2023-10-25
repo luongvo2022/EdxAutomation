@@ -22,7 +22,7 @@ public final class FrameworkConstants {
 	// public static final String JSON_DATA_FILE_PATH =
 	// PropertiesHelpers.getValue("JSON_DATA_FILE_PATH");
 
-	public static final String BROWSER = PropertiesHelpers.getValue("BROWSER");
+	public static final String BROWSER =  System.getenv("Browsers");
 	public static final String REMOTE_URL = PropertiesHelpers.getValue("REMOTE_URL");
 	public static final String REMOTE_PORT = PropertiesHelpers.getValue("REMOTE_PORT");
 	// public static final String PROJECT_NAME =
@@ -44,8 +44,7 @@ public final class FrameworkConstants {
 	public static final String TARGET = PropertiesHelpers.getValue("TARGET");
 	public static final String HEADLESS = PropertiesHelpers.getValue("HEADLESS");
 	public static final String OVERRIDE_REPORTS = PropertiesHelpers.getValue("OVERRIDE_REPORTS");
-	public static final String OPEN_REPORTS_AFTER_EXECUTION = PropertiesHelpers
-			.getValue("OPEN_REPORTS_AFTER_EXECUTION");
+	public static final String OPEN_REPORTS_AFTER_EXECUTION = PropertiesHelpers.getValue("OPEN_REPORTS_AFTER_EXECUTION");
 	public static final String SEND_EMAIL_TO_USERS = PropertiesHelpers.getValue("SEND_EMAIL_TO_USERS");
 	public static final String SCREENSHOT_PASSED_STEPS = PropertiesHelpers.getValue("SCREENSHOT_PASSED_STEPS");
 	public static final String SCREENSHOT_FAILED_STEPS = PropertiesHelpers.getValue("SCREENSHOT_FAILED_STEPS");
