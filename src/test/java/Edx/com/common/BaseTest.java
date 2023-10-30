@@ -16,7 +16,7 @@ import org.testng.annotations.*;
 
 //@Listeners({TestListener.class})
 public class BaseTest {
-	@Parameters({"BROWSER","COURSE_URL"})
+	@Parameters({"browser","course_url"})
 	@BeforeMethod(alwaysRun = true)
 	public void BeginWebTest(@Optional("chrome") String browser, String course_url) {
 //		UserInput userinput= new UserInput();
