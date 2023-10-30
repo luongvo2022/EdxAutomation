@@ -2,35 +2,27 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-25T23:29:22 ICT" name="Default suite" finished-at="2023-10-25T23:29:22 ICT" duration-ms="197">
+  <suite started-at="2023-10-30T17:23:15 ICT" name="Default suite" finished-at="2023-10-30T17:23:15 ICT" duration-ms="191">
     <groups>
     </groups>
-    <test started-at="2023-10-25T23:29:22 ICT" name="Default test" finished-at="2023-10-25T23:29:22 ICT" duration-ms="197">
+    <test started-at="2023-10-30T17:23:15 ICT" name="Default test" finished-at="2023-10-30T17:23:15 ICT" duration-ms="191">
       <class name="Edx.com.testcases.EdxTest">
-        <test-method is-config="true" signature="BeginWebTest(java.lang.String)[pri:0, instance:Edx.com.testcases.EdxTest@1921ad94]" started-at="2023-10-25T23:29:22 ICT" name="BeginWebTest" finished-at="2023-10-25T23:29:22 ICT" duration-ms="22" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
+        <test-method is-config="true" signature="BeginWebTest(java.lang.String,java.lang.String)[pri:0, instance:Edx.com.testcases.EdxTest@4ed5eb72]" started-at="2023-10-30T17:23:15 ICT" name="BeginWebTest" finished-at="1970-01-01T07:00:00 ICT" duration-ms="-1698661395626" status="FAIL">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[Cannot invoke "String.toUpperCase()" because "session2.com.constants.FrameworkConstants.BROWSER" is null]]>
+              <![CDATA[
+Parameter 'COURSE_URL' is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
+in C:\Users\vtluong\AppData\Local\Temp\testng-eclipse-1707686496\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "session2.com.constants.FrameworkConstants.BROWSER" is null
-at session2.com.driver.TargetFactory.createInstance(TargetFactory.java:44)
-at Edx.com.common.BaseTest.BeginWebTest(BaseTest.java:26)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'COURSE_URL' is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
+in C:\Users\vtluong\AppData\Local\Temp\testng-eclipse-1707686496\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
 at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
@@ -57,27 +49,26 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeginWebTest -->
-        <test-method signature="EdxAutomation()[pri:0, instance:Edx.com.testcases.EdxTest@1921ad94]" started-at="2023-10-25T23:29:22 ICT" name="EdxAutomation" finished-at="2023-10-25T23:29:22 ICT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="EdxAutomation()[pri:0, instance:Edx.com.testcases.EdxTest@4ed5eb72]" started-at="2023-10-30T17:23:15 ICT" name="EdxAutomation" finished-at="2023-10-30T17:23:15 ICT" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[Cannot invoke "String.toUpperCase()" because "session2.com.constants.FrameworkConstants.BROWSER" is null]]>
+              <![CDATA[
+Parameter 'COURSE_URL' is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
+in C:\Users\vtluong\AppData\Local\Temp\testng-eclipse-1707686496\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "session2.com.constants.FrameworkConstants.BROWSER" is null
-at session2.com.driver.TargetFactory.createInstance(TargetFactory.java:44)
-at Edx.com.common.BaseTest.BeginWebTest(BaseTest.java:26)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'COURSE_URL' is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
+in C:\Users\vtluong\AppData\Local\Temp\testng-eclipse-1707686496\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
 at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
@@ -104,11 +95,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EdxAutomation -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Edx.com.testcases.EdxTest@1921ad94]" started-at="2023-10-25T23:29:22 ICT" name="closeDriver" finished-at="2023-10-25T23:29:22 ICT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Edx.com.testcases.EdxTest@4ed5eb72]" started-at="2023-10-30T17:23:15 ICT" name="closeDriver" finished-at="2023-10-30T17:23:15 ICT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->

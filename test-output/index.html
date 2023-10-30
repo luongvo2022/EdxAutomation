@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\vtluong\AppData\Local\Temp\testng-eclipse-1237802993\testng-customsuite.xml</span>
+                    <span>C:\Users\vtluong\AppData\Local\Temp\testng-eclipse-1707686496\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -129,17 +129,14 @@
                   <a name="EdxAutomation">
                   </a> <!-- EdxAutomation -->
                   <span class="method-name">EdxAutomation</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.toUpperCase()&quot; because &quot;session2.com.constants.FrameworkConstants.BROWSER&quot; is null
-	at session2.com.driver.TargetFactory.createInstance(TargetFactory.java:44)
-	at Edx.com.common.BaseTest.BeginWebTest(BaseTest.java:26)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;COURSE_URL&apos; is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
+in C:\Users\vtluong\AppData\Local\Temp\testng-eclipse-1707686496\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
 	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
@@ -173,7 +170,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\vtluong\AppData\Local\Temp\testng-eclipse-1237802993\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\vtluong\AppData\Local\Temp\testng-eclipse-1707686496\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -182,11 +179,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Edx.com.testcases.EdxTest&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;EdxAutomation&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- Edx.com.testcases.EdxTest --&gt;
+      &lt;class name=&quot;Edx.com.testcases.EdxTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -262,19 +255,13 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">Edx.com.testcases.EdxTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">BeginWebTest(chrome)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">EdxAutomation</span>
-                <span class="method-start">146 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver</span>
-                <span class="method-start">155 ms</span>
+                <span class="method-start">18 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

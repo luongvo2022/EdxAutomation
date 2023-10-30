@@ -22,7 +22,8 @@ public final class FrameworkConstants {
 	// public static final String JSON_DATA_FILE_PATH =
 	// PropertiesHelpers.getValue("JSON_DATA_FILE_PATH");
 
-	public static final String BROWSER =  System.getenv("Browsers");
+	public static final String BROWSER =  PropertiesHelpers.getValue("BROWSER");
+//	public static final String BROWSER =  System.getProperty("BROWSER");
 	public static final String REMOTE_URL = PropertiesHelpers.getValue("REMOTE_URL");
 	public static final String REMOTE_PORT = PropertiesHelpers.getValue("REMOTE_PORT");
 	// public static final String PROJECT_NAME =

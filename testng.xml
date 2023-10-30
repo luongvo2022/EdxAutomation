@@ -2,8 +2,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+	  <parameter name="COURSE_URL" value="https://www.edx.org/learn/object-oriented-programming/university-of-british-columbia-software-construction-object-oriented-design" />
+	  <parameter name="BROWERS" value="chrome" />
     <classes>
-      <class name="session2.com.testcases.EdxTest"/>
+      <class name="Edx.com.testcases.EdxTest"/>
+      <class name="Edx.com.common.BaseTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

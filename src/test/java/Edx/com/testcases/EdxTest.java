@@ -1,7 +1,6 @@
 package Edx.com.testcases;
 
-import org.testng.annotations.Test;
-
+import org.testng.annotations.*;
 import Edx.com.common.BaseTest;
 import Edx.com.common.WordDocumentWriter;
 import Edx.com.pages.EdxCourseContentPage;
@@ -24,8 +23,8 @@ public class EdxTest extends BaseTest {
 	public String password="kdAVt6`m";
 	@Test(priority = 0)
 	public void EdxAutomation() {
-		String URL=System.getenv("Course URL");
-		getURL(URL);
+//		String URL=System.getProperty("COURSE_URL");
+		
 		EdxOverviewPage edxOverview= new EdxOverviewPage();
 		WordDocumentWriter doc=new WordDocumentWriter();
 		String durationCourse=edxOverview.getDurationCourse();

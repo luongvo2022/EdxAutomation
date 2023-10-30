@@ -5,6 +5,9 @@ import session2.com.driver.TargetFactory;
 import session2.com.helpers.PropertiesHelpers;
 import session2.com.helpers.WebElementsHelpers;
 import session2.com.utils.UserInput;
+
+import static session2.com.helpers.WebElementsHelpers.getURL;
+
 //import session4.com.listeners.TestListener;
 //import session2.com.projects.cms.CommonPageCMS;
 import org.openqa.selenium.WebDriver;
@@ -13,9 +16,9 @@ import org.testng.annotations.*;
 
 //@Listeners({TestListener.class})
 public class BaseTest {
-	@Parameters("BROWSER")
+	@Parameters({"BROWSER","COURSE_URL"})
 	@BeforeMethod(alwaysRun = true)
-	public void BeginWebTest(@Optional("chrome") String browser) {
+	public void BeginWebTest(@Optional("chrome") String browser, String course_url) {
 //		UserInput userinput= new UserInput();
 //	    String Course_URL=userinput.getURLCourse();
 //	    browser=userinput.getBrowser();
@@ -26,6 +29,7 @@ public class BaseTest {
 		WebDriver driver = ThreadGuard.protect(new TargetFactory().createInstance(browser)); //run paral with nhieu thread
 		DriverManager.setDriver(driver);
 		driver.manage().window().maximize();
+		getURL(course_url);
 //		WebElementsHelpers.getURL("https://www.edx.org/learn/happiness/university-of-california-berkeley-the-foundations-of-happiness-at-work?webview=false&campaign=The+Foundations+of+Happiness+at+Work&source=edx&product_category=course");
 		
 	}
