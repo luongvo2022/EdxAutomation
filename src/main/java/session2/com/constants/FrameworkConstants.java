@@ -26,6 +26,7 @@ public final class FrameworkConstants {
 //	public static final String BROWSER =  System.getProperty("BROWSER");
 	public static final String REMOTE_URL = PropertiesHelpers.getValue("REMOTE_URL");
 	public static final String REMOTE_PORT = PropertiesHelpers.getValue("REMOTE_PORT");
+	public static final String COURSE_URL= PropertiesHelpers.getValue("COURSE_URL");
 	// public static final String PROJECT_NAME =
 	// PropertiesHelpers.getValue("PROJECT_NAME");
 	// public static final String REPORT_TITLE =

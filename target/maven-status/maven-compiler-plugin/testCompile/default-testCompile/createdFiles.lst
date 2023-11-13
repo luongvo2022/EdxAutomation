@@ -1,0 +1,11 @@
+Edx\com\pagefactory\HomePage.class
+Edx\com\pagefactory\LoginPage.class
+Edx\com\common\WordDocumentWriter.class
+Edx\com\testcases\EdxTest.class
+Edx\com\pages\LoginPage.class
+Edx\com\common\BaseTest.class
+Edx\com\pages\EdxCourseContentPage.class
+Edx\com\pages\EdxLearnerHomePage.class
+Edx\com\pages\EdxOverviewPage.class
+Edx\com\pages\EdxLoginPage.class
+Edx\com\pages\HomePage.class

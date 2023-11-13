@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
-    <parameter name="browers" value="chrome"/>
+    <parameter name="brower" value="edge"/>
     <parameter name="course_url" value="https://www.edx.org/learn/object-oriented-programming/university-of-british-columbia-software-construction-object-oriented-design"/>
     <classes>
       <class name="Edx.com.testcases.EdxTest">

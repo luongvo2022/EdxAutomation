@@ -3,44 +3,6 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="Edx.com.testcases.StaleElementReferenceExceptionHandlingTest">
-        <methods>
-          <include name="closeDriver"/>
-          <include name="BeginWebTest"/>
-          <include name="testStaleElementReferenceExceptionHandling_usingExplicitWait"/>
-        </methods>
-      </class> <!-- Edx.com.testcases.StaleElementReferenceExceptionHandlingTest -->
-      <class name="Edx.com.testcases.LoginAppTest">
-        <methods>
-          <include name="closeDriver"/>
-          <include name="testLoginPageAppearCorrectAfterLogout_WithoutPageChaining"/>
-          <include name="BeginWebTest"/>
-          <include name="testHomePageAppearCorrect"/>
-          <include name="testLoginPageAppearCorrectAfterLogout_WithPageChaining"/>
-        </methods>
-      </class> <!-- Edx.com.testcases.LoginAppTest -->
-      <class name="Edx.com.testcases.ElementNotInteractableExceptionHandlingTest">
-        <methods>
-          <include name="closeDriver"/>
-          <include name="testElementNotInteractableExceptionHandling_usingJavascriptValue"/>
-          <include name="BeginWebTest"/>
-        </methods>
-      </class> <!-- Edx.com.testcases.ElementNotInteractableExceptionHandlingTest -->
-      <class name="Edx.com.testcases.SeleniumWaitsTest">
-        <methods>
-          <include name="closeDriver"/>
-          <include name="testImplicitWait_WithCustomValue"/>
-          <include name="BeginWebTest"/>
-        </methods>
-      </class> <!-- Edx.com.testcases.SeleniumWaitsTest -->
-      <class name="Edx.com.testcases.LoginAppWithPageFactoryTest">
-        <methods>
-          <include name="closeDriver"/>
-          <include name="testHomePageAppearCorrectWithPageFactory"/>
-          <include name="BeginWebTest"/>
-          <include name="testLoginPageAppearCorrectWithPageFactory"/>
-        </methods>
-      </class> <!-- Edx.com.testcases.LoginAppWithPageFactoryTest -->
       <class name="Edx.com.testcases.EdxTest">
         <methods>
           <include name="closeDriver"/>

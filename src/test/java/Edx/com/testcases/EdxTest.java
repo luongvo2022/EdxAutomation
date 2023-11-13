@@ -16,6 +16,9 @@ import session2.com.helpers.WebElementsHelpers;
 import session2.com.utils.UserInput;
 import static session2.com.helpers.WebElementsHelpers.*;
 
+import session2.com.constants.FrameworkConstants;
+
+
 @Epic("Regression Test")
 @Feature("Edx Test")
 public class EdxTest extends BaseTest {
@@ -23,8 +26,7 @@ public class EdxTest extends BaseTest {
 	public String password="kdAVt6`m";
 	@Test(priority = 0)
 	public void EdxAutomation() {
-//		String URL=System.getProperty("COURSE_URL");
-		
+		getURL(FrameworkConstants.COURSE_URL);
 		EdxOverviewPage edxOverview= new EdxOverviewPage();
 		WordDocumentWriter doc=new WordDocumentWriter();
 		String durationCourse=edxOverview.getDurationCourse();

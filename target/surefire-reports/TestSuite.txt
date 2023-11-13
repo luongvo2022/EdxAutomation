@@ -1,58 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 18, Failures: 9, Errors: 0, Skipped: 9, Time elapsed: 1.992 s <<< FAILURE! - in TestSuite
-BeginWebTest(Edx.com.testcases.EdxTest)  Time elapsed: 1.323 s  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 0.883 s <<< FAILURE! - in TestSuite
+BeginWebTest(Edx.com.testcases.EdxTest)  Time elapsed: 0.73 s  <<< FAILURE!
 org.testng.TestNGException: 
 
-Parameter 'COURSE_URL' is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
-
-
-BeginWebTest(Edx.com.testcases.ElementNotInteractableExceptionHandlingTest)  Time elapsed: 0.059 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'COURSE_URL' is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
-
-
-BeginWebTest(Edx.com.testcases.LoginAppTest)  Time elapsed: 0.036 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'COURSE_URL' is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
-
-
-BeginWebTest(Edx.com.testcases.LoginAppTest)  Time elapsed: 0.047 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'COURSE_URL' is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
-
-
-BeginWebTest(Edx.com.testcases.LoginAppTest)  Time elapsed: 0.029 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'COURSE_URL' is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
-
-
-BeginWebTest(Edx.com.testcases.LoginAppWithPageFactoryTest)  Time elapsed: 0.015 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'COURSE_URL' is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
-
-
-BeginWebTest(Edx.com.testcases.LoginAppWithPageFactoryTest)  Time elapsed: 0.029 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'COURSE_URL' is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
-
-
-BeginWebTest(Edx.com.testcases.SeleniumWaitsTest)  Time elapsed: 0.015 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'COURSE_URL' is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
-
-
-BeginWebTest(Edx.com.testcases.StaleElementReferenceExceptionHandlingTest)  Time elapsed: 0.017 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'COURSE_URL' is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
+Parameter 'course_url' is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
 
 
