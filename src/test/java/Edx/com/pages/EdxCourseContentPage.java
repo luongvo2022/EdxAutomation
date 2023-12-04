@@ -21,7 +21,7 @@ public class EdxCourseContentPage {
 	
 	public void clickExpland(String Title) {
 		smartWait();
-		By Expland=By.xpath("//*[contains(text(),'"+Title+"')]/../../../span/button");
+		By Expland=By.xpath("//*[contains(text(),\""+Title+"\")]/../../../span/button");
 		clickElement(Expland);
 	}
 	

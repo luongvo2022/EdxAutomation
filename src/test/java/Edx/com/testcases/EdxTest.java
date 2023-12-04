@@ -26,7 +26,6 @@ public class EdxTest extends BaseTest {
 	public String password="kdAVt6`m";
 	@Test(priority = 0)
 	public void EdxAutomation() {
-		getURL(FrameworkConstants.COURSE_URL);
 		EdxOverviewPage edxOverview= new EdxOverviewPage();
 		WordDocumentWriter doc=new WordDocumentWriter();
 		String durationCourse=edxOverview.getDurationCourse();
@@ -37,6 +36,7 @@ public class EdxTest extends BaseTest {
 		//Intructor
 		doc.addIntructor(edxOverview.getIntructor_FullName(), edxOverview.getIntructor_Infor());
 		EdxLoginPage loginPage=edxOverview.clickEnroll();
+		sleep(10);
 		loginPage.LoginToEdx(userName, password);
 	
 		loginPage.clickContinueButton();

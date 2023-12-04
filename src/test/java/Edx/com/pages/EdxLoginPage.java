@@ -13,7 +13,7 @@ public class EdxLoginPage {
 //	WebElement SignInButton_Menubar;
 //	public By SignInButton_Menubar=By.xpath("//a[@class=\"btn btn-primary w-50 first-focus\"]");
 //	public By MobileMenuButton=By.xpath("//button[@class=\"mobile-menu-button icon-button small p-0\"]");
-	public By SignInTab=By.xpath("//a[@id=\"controlled-tab-tab-/login\"]");
+	public By SignInTab=By.xpath("//a[text()='Sign in']");
 	public By UserNameTextbox=By.xpath("//input[@name=\"emailOrUsername\"]");
 	public By PasswordTextbox=By.xpath("//input[@name=\"password\"]");
 	public By SignInButton=By.xpath("//span[text()=\"Sign in\"]");

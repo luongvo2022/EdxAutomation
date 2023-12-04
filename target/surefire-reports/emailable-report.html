@@ -9,19 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">184</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">216</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">Edx.com.testcases.EdxTest</td><td><a href="#m0">BeginWebTest</a></td><td rowspan="1">1699777462915</td><td rowspan="1">-1699777462915</td></tr><tr><th colspan="4">Surefire test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">Edx.com.testcases.EdxTest</td><td><a href="#m1">EdxAutomation</a></td><td rowspan="1">1699777463041</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">Edx.com.testcases.EdxTest</td><td><a href="#m0">BeginWebTest</a></td><td rowspan="1">1700813554459</td><td rowspan="1">27</td></tr><tr><th colspan="4">Surefire test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">Edx.com.testcases.EdxTest</td><td><a href="#m1">EdxAutomation</a></td><td rowspan="1">1700813554627</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">Edx.com.testcases.EdxTest#BeginWebTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;course_url&apos; is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
-
+<h2>Surefire test</h2><h3 id="m0">Edx.com.testcases.EdxTest#BeginWebTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.toUpperCase()&quot; because &quot;session2.com.constants.FrameworkConstants.BROWSER&quot; is null
+	at session2.com.driver.TargetFactory.createInstance(TargetFactory.java:48)
+	at Edx.com.common.BaseTest.BeginWebTest(BaseTest.java:27)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Edx.com.testcases.EdxTest#EdxAutomation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;course_url&apos; is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
-
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Edx.com.testcases.EdxTest#EdxAutomation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.toUpperCase()&quot; because &quot;session2.com.constants.FrameworkConstants.BROWSER&quot; is null
+	at session2.com.driver.TargetFactory.createInstance(TargetFactory.java:48)
+	at Edx.com.common.BaseTest.BeginWebTest(BaseTest.java:27)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

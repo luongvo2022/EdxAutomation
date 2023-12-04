@@ -2,31 +2,36 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-13T15:38:18 ICT" name="Default suite" finished-at="2023-11-13T15:39:41 ICT" duration-ms="83514">
+  <suite started-at="2023-12-04T15:36:19 ICT" name="Suite" finished-at="2023-12-04T15:37:27 ICT" duration-ms="67851">
     <groups>
     </groups>
-    <test started-at="2023-11-13T15:38:18 ICT" name="Default test" finished-at="2023-11-13T15:39:41 ICT" duration-ms="83514">
+    <test started-at="2023-12-04T15:36:19 ICT" name="Test" finished-at="2023-12-04T15:37:27 ICT" duration-ms="67851">
       <class name="Edx.com.testcases.EdxTest">
-        <test-method is-config="true" signature="BeginWebTest(java.lang.String)[pri:0, instance:Edx.com.testcases.EdxTest@1921ad94]" started-at="2023-11-13T15:38:18 ICT" name="BeginWebTest" finished-at="2023-11-13T15:38:24 ICT" duration-ms="6422" status="PASS">
+        <test-method is-config="true" signature="BeginWebTest(java.lang.String,java.lang.String)[pri:0, instance:Edx.com.testcases.EdxTest@5a1de7fb]" started-at="2023-12-04T15:36:19 ICT" name="BeginWebTest" finished-at="2023-12-04T15:36:23 ICT" duration-ms="3772" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA[chrome]]>
               </value>
             </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.edx.org/learn/how-to-learn/edx-how-to-learn-online]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeginWebTest -->
-        <test-method signature="EdxAutomation()[pri:0, instance:Edx.com.testcases.EdxTest@1921ad94]" started-at="2023-11-13T15:38:24 ICT" name="EdxAutomation" finished-at="2023-11-13T15:39:40 ICT" duration-ms="76331" status="PASS">
+        <test-method signature="EdxAutomation()[pri:0, instance:Edx.com.testcases.EdxTest@5a1de7fb]" started-at="2023-12-04T15:36:23 ICT" name="EdxAutomation" finished-at="2023-12-04T15:37:26 ICT" duration-ms="63353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EdxAutomation -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Edx.com.testcases.EdxTest@1921ad94]" started-at="2023-11-13T15:39:40 ICT" name="closeDriver" finished-at="2023-11-13T15:39:41 ICT" duration-ms="604" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Edx.com.testcases.EdxTest@5a1de7fb]" started-at="2023-12-04T15:37:26 ICT" name="closeDriver" finished-at="2023-12-04T15:37:27 ICT" duration-ms="584" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- Edx.com.testcases.EdxTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

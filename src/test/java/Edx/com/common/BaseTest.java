@@ -1,24 +1,23 @@
 package Edx.com.common;
+//import session4.com.listeners.TestListener;
+//import session2.com.projects.cms.CommonPageCMS;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ThreadGuard;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 
 import session2.com.driver.DriverManager;
 import session2.com.driver.TargetFactory;
 import session2.com.helpers.PropertiesHelpers;
 import session2.com.helpers.WebElementsHelpers;
-import session2.com.utils.UserInput;
-
-import static session2.com.helpers.WebElementsHelpers.getURL;
-
-//import session4.com.listeners.TestListener;
-//import session2.com.projects.cms.CommonPageCMS;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ThreadGuard;
-import org.testng.annotations.*;
 
 //@Listeners({TestListener.class})
 public class BaseTest {
-	@Parameters("browser")
+	@Parameters({"browser","course_url"})
 	@BeforeMethod(alwaysRun = true)
-	public void BeginWebTest(@Optional("chrome") String browser) {
+	public void BeginWebTest(String browser,String course_url) {
 //		UserInput userinput= new UserInput();
 //	    String Course_URL=userinput.getURLCourse();
 //	    browser=userinput.getBrowser();
@@ -30,7 +29,7 @@ public class BaseTest {
 		DriverManager.setDriver(driver);
 		driver.manage().window().maximize();
 		
-//		WebElementsHelpers.getURL("https://www.edx.org/learn/happiness/university-of-california-berkeley-the-foundations-of-happiness-at-work?webview=false&campaign=The+Foundations+of+Happiness+at+Work&source=edx&product_category=course");
+		WebElementsHelpers.getURL(course_url);
 		
 	}
 

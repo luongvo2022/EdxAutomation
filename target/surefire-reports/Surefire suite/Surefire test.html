@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Nov 12 15:24:22 ICT 2023</td>
+<td>Started on:</td><td>Fri Nov 24 15:12:34 ICT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (184 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (216 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,20 +76,23 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Edx.com.testcases.EdxTest.BeginWebTest()'><b>BeginWebTest</b><br>Test class: Edx.com.testcases.EdxTest</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;course_url&apos; is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
-
+<td title='Edx.com.testcases.EdxTest.BeginWebTest()'><b>BeginWebTest</b><br>Test class: Edx.com.testcases.EdxTest<br>Parameters: chrome</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.toUpperCase()&quot; because &quot;session2.com.constants.FrameworkConstants.BROWSER&quot; is null
+	at session2.com.driver.TargetFactory.createInstance(TargetFactory.java:48)
+	at Edx.com.common.BaseTest.BeginWebTest(BaseTest.java:27)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1799230133", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1799230133'><pre>org.testng.TestNGException: 
-Parameter &apos;course_url&apos; is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
-
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace557023099", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace557023099'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.toUpperCase()&quot; because &quot;session2.com.constants.FrameworkConstants.BROWSER&quot; is null
+	at session2.com.driver.TargetFactory.createInstance(TargetFactory.java:48)
+	at Edx.com.common.BaseTest.BeginWebTest(BaseTest.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
 	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
@@ -120,7 +123,7 @@ Parameter &apos;course_url&apos; is required by BeforeMethod on method BeginWebT
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 </pre></div></td>
-<td>-1699777462</td>
+<td>0</td>
 <td>Edx.com.testcases.EdxTest@55cf0d14</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
@@ -133,19 +136,22 @@ Parameter &apos;course_url&apos; is required by BeforeMethod on method BeginWebT
 </tr>
 <tr>
 <td title='Edx.com.testcases.EdxTest.EdxAutomation()'><b>EdxAutomation</b><br>Test class: Edx.com.testcases.EdxTest</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;course_url&apos; is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
-
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.toUpperCase()&quot; because &quot;session2.com.constants.FrameworkConstants.BROWSER&quot; is null
+	at session2.com.driver.TargetFactory.createInstance(TargetFactory.java:48)
+	at Edx.com.common.BaseTest.BeginWebTest(BaseTest.java:27)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace38603201", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace38603201'><pre>org.testng.TestNGException: 
-Parameter &apos;course_url&apos; is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
-
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace599782425", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace599782425'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.toUpperCase()&quot; because &quot;session2.com.constants.FrameworkConstants.BROWSER&quot; is null
+	at session2.com.driver.TargetFactory.createInstance(TargetFactory.java:48)
+	at Edx.com.common.BaseTest.BeginWebTest(BaseTest.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
 	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)

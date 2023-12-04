@@ -129,11 +129,11 @@
                   <a name="EdxAutomation">
                   </a> <!-- EdxAutomation -->
                   <span class="method-name">EdxAutomation</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Parameter &apos;course_url&apos; is required by BeforeMethod on method BeginWebTest but has not been marked @Optional or defined
-
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.toUpperCase()&quot; because &quot;session2.com.constants.FrameworkConstants.BROWSER&quot; is null
+	at session2.com.driver.TargetFactory.createInstance(TargetFactory.java:48)
+	at Edx.com.common.BaseTest.BeginWebTest(BaseTest.java:27)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames
+... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -227,13 +227,19 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">Edx.com.testcases.EdxTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">BeginWebTest(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">EdxAutomation</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">168 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver</span>
-                <span class="method-start">9 ms</span>
+                <span class="method-start">175 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
