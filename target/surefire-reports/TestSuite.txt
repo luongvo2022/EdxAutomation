@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 0.939 s <<< FAILURE! - in TestSuite
-BeginWebTest(Edx.com.testcases.EdxTest)  Time elapsed: 0.781 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "session2.com.constants.FrameworkConstants.BROWSER" is null
-

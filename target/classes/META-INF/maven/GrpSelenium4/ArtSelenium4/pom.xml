@@ -22,7 +22,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.10.0</version>
+			<version>4.13.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
@@ -46,7 +46,7 @@
 			<artifactId>selenium-http-jdk-client</artifactId>
 			<version>4.10.0</version>
 		</dependency>
-
+		
 		<!-- Resolve SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder" in Selenium WebDriver -->
 		<!-- Reference: https://stackoverflow.com/questions/7421612/slf4j-failed-to-load-class-org-slf4j-impl-staticloggerbinder -->
 		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
@@ -133,6 +133,22 @@
    			<version>5.2.4</version>
 		</dependency>
 
+		<dependency>
+			<groupId>com.maven.test</groupId>
+			<artifactId>com.maven.selenium</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.9</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.stephenc.monte</groupId>
+			<artifactId>monte-screen-recorder</artifactId>
+			<version>0.7.7.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>

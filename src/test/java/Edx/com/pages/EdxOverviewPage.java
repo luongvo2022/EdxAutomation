@@ -1,5 +1,5 @@
 package Edx.com.pages;
-import static session2.com.helpers.WebElementsHelpers.*;
+import static selenium4.com.helpers.WebElementsHelpers.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,7 +42,9 @@ public class EdxOverviewPage {
 	public List<String> getWhatLearn() {
 		scrollToElementToBottom(WhatLearn);
 		smartWait();
+//		System.out.println("Luong debug");
 		clickElement(ShowMore);
+//		System.out.println("Luong debug2");
 		return getListElementsText(WhatLearnContent);		
 		
 	}

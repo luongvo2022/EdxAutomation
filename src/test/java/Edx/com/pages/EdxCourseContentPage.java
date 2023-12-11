@@ -1,5 +1,5 @@
 package Edx.com.pages;
-import static session2.com.helpers.WebElementsHelpers.*;
+import static selenium4.com.helpers.WebElementsHelpers.*;
 
 import java.util.List;
 

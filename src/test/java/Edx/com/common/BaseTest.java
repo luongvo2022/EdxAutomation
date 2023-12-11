@@ -1,30 +1,25 @@
 package Edx.com.common;
-//import session4.com.listeners.TestListener;
+import selenium4.com.listeners.TestListener;
 //import session2.com.projects.cms.CommonPageCMS;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ThreadGuard;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
+import selenium4.com.driver.DriverManager;
+import selenium4.com.driver.TargetFactory;
+import selenium4.com.helpers.PropertiesHelpers;
+import selenium4.com.helpers.WebElementsHelpers;
 
-import session2.com.driver.DriverManager;
-import session2.com.driver.TargetFactory;
-import session2.com.helpers.PropertiesHelpers;
-import session2.com.helpers.WebElementsHelpers;
-
-//@Listeners({TestListener.class})
+@Listeners({TestListener.class})
 public class BaseTest {
 	@Parameters({"browser","course_url"})
 	@BeforeMethod(alwaysRun = true)
 	public void BeginWebTest(String browser,String course_url) {
-//		UserInput userinput= new UserInput();
-//	    String Course_URL=userinput.getURLCourse();
-//	    browser=userinput.getBrowser();
-//	    userinput.closeScanner();
-	    //Create Driver
-//		PropertiesHelpers.loadAllFiles();
 		System.setProperty("webdriver.http.factory", "jdk-http-client"); //xu ly exception
+//		System.out.println("Luong debug");
 		WebDriver driver = ThreadGuard.protect(new TargetFactory().createInstance(browser)); //run paral with nhieu thread
 		DriverManager.setDriver(driver);
 		driver.manage().window().maximize();

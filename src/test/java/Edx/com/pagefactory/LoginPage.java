@@ -1,12 +1,13 @@
 package Edx.com.pagefactory;
 
-import static session2.com.helpers.WebElementsHelpers.*;
+import static selenium4.com.helpers.WebElementsHelpers.*;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import session2.com.driver.DriverManager;
+import selenium4.com.driver.DriverManager;
 
 public class LoginPage {
 

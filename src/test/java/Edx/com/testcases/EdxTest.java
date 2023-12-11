@@ -8,24 +8,26 @@ import Edx.com.pages.EdxLearnerHomePage;
 import Edx.com.pages.EdxLoginPage;
 import Edx.com.pages.EdxOverviewPage;
 
+import static selenium4.com.helpers.WebElementsHelpers.*;
+
 import java.util.List;
 import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
-import session2.com.helpers.WebElementsHelpers;
-import session2.com.utils.UserInput;
-import static session2.com.helpers.WebElementsHelpers.*;
+import selenium4.com.constants.FrameworkConstants;
+import selenium4.com.helpers.ScreenshotHelpers;
+import selenium4.com.helpers.WebElementsHelpers;
+import selenium4.com.utils.UserInput;
 
-import session2.com.constants.FrameworkConstants;
 
-
-@Epic("Regression Test")
-@Feature("Edx Test")
+//@Epic("Regression Test")
+//@Feature("Edx Test")
 public class EdxTest extends BaseTest {
 	public String userName="luongvo2022";
 	public String password="kdAVt6`m";
 	@Test(priority = 0)
 	public void EdxAutomation() {
+		
 		EdxOverviewPage edxOverview= new EdxOverviewPage();
 		WordDocumentWriter doc=new WordDocumentWriter();
 		String durationCourse=edxOverview.getDurationCourse();
@@ -38,7 +40,7 @@ public class EdxTest extends BaseTest {
 		EdxLoginPage loginPage=edxOverview.clickEnroll();
 		sleep(10);
 		loginPage.LoginToEdx(userName, password);
-	
+		ScreenshotHelpers.getScreenshotFile("screenshotUsingRobotClass_BeforeClick");
 		loginPage.clickContinueButton();
 		doc.addCourseContent();
 		doc.addDurationCourse(durationCourse);

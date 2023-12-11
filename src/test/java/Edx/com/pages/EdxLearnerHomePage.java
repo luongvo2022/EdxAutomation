@@ -2,7 +2,7 @@ package Edx.com.pages;
 
 import org.openqa.selenium.By;
 
-import session2.com.helpers.WebElementsHelpers;
+import selenium4.com.helpers.WebElementsHelpers;
 
 public class EdxLearnerHomePage {
 	public By exploreCourse=By.xpath("//*[text()='Explore courses']");

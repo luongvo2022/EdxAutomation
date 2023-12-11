@@ -1,10 +1,11 @@
 package Edx.com.pages;
 
-import static session2.com.helpers.WebElementsHelpers.*;
+import static selenium4.com.helpers.WebElementsHelpers.*;
+
 import org.openqa.selenium.By;
 
-import session2.com.driver.DriverManager;
-import session2.com.utils.LogUtils;
+import selenium4.com.driver.DriverManager;
+import selenium4.com.utils.LogUtils;
 
 public class LoginPage {
 

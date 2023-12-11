@@ -1,6 +1,7 @@
 package Edx.com.pages;
 
-import static session2.com.helpers.WebElementsHelpers.*;
+import static selenium4.com.helpers.WebElementsHelpers.*;
+
 import org.openqa.selenium.By;
 
 public class HomePage {
