@@ -1,0 +1,97 @@
+[INFO] 12-12-2023 09:03:05 [main] [LogUtils] - Starting Suite: Surefire suite
+[INFO] 12-12-2023 09:03:05 [main] [LogUtils] -  --- Starting: BeginWebTest
+[INFO] 12-12-2023 09:03:08 [main] [LogUtils] -  --- Ending: BeginWebTest
+[INFO] 12-12-2023 09:03:08 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-12-2023 09:03:08 [main] [LogUtils] -  --- Starting: EdxAutomation
+[INFO] 12-12-2023 09:03:09 [main] [LogUtils] - Open URL: https://www.edx.org/learn/how-to-learn/edx-how-to-learn-online
+[INFO] 12-12-2023 09:03:10 [main] [LogUtils] - Scroll to element By.xpath: //div[contains(text(),'weeks')]
+[INFO] 12-12-2023 09:03:10 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),'weeks')]
+[INFO] 12-12-2023 09:03:10 [main] [LogUtils] - Verify element visible By.xpath: //div[@class="col-md-7 pr-4"]/h1
+[INFO] 12-12-2023 09:03:11 [main] [LogUtils] -  --- Ending: EdxAutomation
+[ERROR] 12-12-2023 09:03:11 [main] [LogUtils] - Test case:  is failed.
+[INFO] 12-12-2023 09:03:11 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (a89b46f907c605ec055cbf860ec4fd88)
+[INFO] 12-12-2023 09:03:11 [main] [LogUtils] - Screenshot taken: EdxAutomation
+[INFO] 12-12-2023 09:03:11 [main] [LogUtils] - Screenshot taken current URL: https://www.edx.org/learn/how-to-learn/edx-how-to-learn-online
+[ERROR] 12-12-2023 09:03:11 [main] [LogUtils] - FAILED !! Screenshot for test case: EdxAutomation
+[ERROR] 12-12-2023 09:03:11 [main] [LogUtils] - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=119.0.6045.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a89b46f907c605ec055cbf860ec4fd88, getElementText {id=92E43B834F60EE4EDDB4F072F30B4080_element_40}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\vtluong\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50508}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50508/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a89b46f907c605ec055cbf860ec4fd88)] -> xpath: //div[@class="col-md-7 pr-4"]/h1]
+Session ID: a89b46f907c605ec055cbf860ec4fd88
+[INFO] 12-12-2023 09:03:11 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (a89b46f907c605ec055cbf860ec4fd88)
+[INFO] 12-12-2023 09:03:11 [main] [LogUtils] - Screenshot taken: EdxAutomation
+[INFO] 12-12-2023 09:03:11 [main] [LogUtils] - Screenshot taken current URL: https://www.edx.org/learn/how-to-learn/edx-how-to-learn-online
+[INFO] 12-12-2023 09:03:11 [main] [LogUtils] -  --- Starting: closeDriver
+[INFO] 12-12-2023 09:03:12 [main] [LogUtils] -  --- Ending: closeDriver
+[INFO] 12-12-2023 09:03:12 [main] [LogUtils] - End Suite: Surefire suite
+[INFO] 12-12-2023 09:31:52 [main] [LogUtils] - Starting Suite: Surefire suite
+[INFO] 12-12-2023 09:31:52 [main] [LogUtils] -  --- Starting: BeginWebTest
+[INFO] 12-12-2023 09:31:54 [main] [LogUtils] -  --- Ending: BeginWebTest
+[INFO] 12-12-2023 09:31:54 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-12-2023 09:31:54 [main] [LogUtils] -  --- Starting: EdxAutomation
+[INFO] 12-12-2023 09:31:57 [main] [LogUtils] - Open URL: https://www.edx.org/learn/how-to-learn/edx-how-to-learn-online
+[INFO] 12-12-2023 09:31:57 [main] [LogUtils] - Scroll to element By.xpath: //div[contains(text(),'weeks')]
+[INFO] 12-12-2023 09:31:57 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),'weeks')]
+[INFO] 12-12-2023 09:31:57 [main] [LogUtils] - Verify element visible By.xpath: //div[@class="col-md-7 pr-4"]/h1
+[INFO] 12-12-2023 09:31:58 [main] [LogUtils] - Verify element visible By.xpath: //div[@class="p"]
+[INFO] 12-12-2023 09:31:58 [main] [LogUtils] - Scroll to element By.xpath: //h1[@class="h1 nav-target pt-3 mt-3 pt-sm-5 mt-sm-2"]
+[INFO] 12-12-2023 09:31:58 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Show more' and @id='outcome']
+[INFO] 12-12-2023 09:32:00 [main] [LogUtils] -  --- Ending: EdxAutomation
+[ERROR] 12-12-2023 09:32:00 [main] [LogUtils] - Test case:  is failed.
+[INFO] 12-12-2023 09:32:00 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (9bb0646154032d6e7414d77be38c8f0b)
+[INFO] 12-12-2023 09:32:00 [main] [LogUtils] - Screenshot taken: EdxAutomation
+[INFO] 12-12-2023 09:32:00 [main] [LogUtils] - Screenshot taken current URL: https://www.edx.org/learn/how-to-learn/edx-how-to-learn-online
+[ERROR] 12-12-2023 09:32:00 [main] [LogUtils] - FAILED !! Screenshot for test case: EdxAutomation
+[ERROR] 12-12-2023 09:32:00 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="preview-expand-cta btn btn-link mt-2 pt-1 pt-sm-2 px-0 pb-0" id="outcome" type="button">...</button> is not clickable at point (285, 16). Other element would receive the click: <h5 class="h5 text-primary-100 mx-auto py-2 mb-0">...</h5>
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9bb0646154032d6e7414d77be38c8f0b, clickElement {id=9851826ABC53A4139005E66480571334_element_42}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\vtluong\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51130}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51130/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9bb0646154032d6e7414d77be38c8f0b)] -> xpath: //button[text()='Show more' and @id='outcome']]
+Session ID: 9bb0646154032d6e7414d77be38c8f0b
+[INFO] 12-12-2023 09:32:00 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (9bb0646154032d6e7414d77be38c8f0b)
+[INFO] 12-12-2023 09:32:00 [main] [LogUtils] - Screenshot taken: EdxAutomation
+[INFO] 12-12-2023 09:32:00 [main] [LogUtils] - Screenshot taken current URL: https://www.edx.org/learn/how-to-learn/edx-how-to-learn-online
+[INFO] 12-12-2023 09:32:00 [main] [LogUtils] -  --- Starting: closeDriver
+[INFO] 12-12-2023 09:32:00 [main] [LogUtils] -  --- Ending: closeDriver
+[INFO] 12-12-2023 09:32:00 [main] [LogUtils] - End Suite: Surefire suite
+[INFO] 12-12-2023 14:13:36 [main] [LogUtils] - Starting Suite: Surefire suite
+[INFO] 12-12-2023 14:13:36 [main] [LogUtils] -  --- Starting: BeginWebTest
+[INFO] 12-12-2023 14:13:39 [main] [LogUtils] -  --- Ending: BeginWebTest
+[INFO] 12-12-2023 14:13:39 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-12-2023 14:13:39 [main] [LogUtils] -  --- Starting: EdxAutomation
+[INFO] 12-12-2023 14:13:44 [main] [LogUtils] - Open URL: https://www.edx.org/learn/how-to-learn/edx-how-to-learn-online
+[INFO] 12-12-2023 14:13:44 [main] [LogUtils] - Scroll to element By.xpath: //div[contains(text(),'weeks')]
+[INFO] 12-12-2023 14:13:44 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),'weeks')]
+[INFO] 12-12-2023 14:13:45 [main] [LogUtils] - Verify element visible By.xpath: //div[@class="col-md-7 pr-4"]/h1
+[INFO] 12-12-2023 14:13:45 [main] [LogUtils] - Verify element visible By.xpath: //div[@class="p"]
+[INFO] 12-12-2023 14:13:45 [main] [LogUtils] - Scroll to element By.xpath: //h1[@class="h1 nav-target pt-3 mt-3 pt-sm-5 mt-sm-2"]
+[INFO] 12-12-2023 14:13:45 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Show more' and @id='outcome']
+[INFO] 12-12-2023 14:13:47 [main] [LogUtils] -  --- Ending: EdxAutomation
+[ERROR] 12-12-2023 14:13:47 [main] [LogUtils] - Test case:  is failed.
+[INFO] 12-12-2023 14:13:47 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (4cee294ff5762d7460fcbdec1bca5d4f)
+[INFO] 12-12-2023 14:13:47 [main] [LogUtils] - Screenshot taken: EdxAutomation
+[INFO] 12-12-2023 14:13:47 [main] [LogUtils] - Screenshot taken current URL: https://www.edx.org/learn/how-to-learn/edx-how-to-learn-online
+[ERROR] 12-12-2023 14:13:47 [main] [LogUtils] - FAILED !! Screenshot for test case: EdxAutomation
+[ERROR] 12-12-2023 14:13:47 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="preview-expand-cta btn btn-link mt-2 pt-1 pt-sm-2 px-0 pb-0" id="outcome" type="button">...</button> is not clickable at point (285, 16). Other element would receive the click: <h5 class="h5 text-primary-100 mx-auto py-2 mb-0">...</h5>
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4cee294ff5762d7460fcbdec1bca5d4f, clickElement {id=6B35F8C2E7F7B6B30B2B3CE39A8B4FAC_element_59}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\vtluong\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61228}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61228/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4cee294ff5762d7460fcbdec1bca5d4f)] -> xpath: //button[text()='Show more' and @id='outcome']]
+Session ID: 4cee294ff5762d7460fcbdec1bca5d4f
+[INFO] 12-12-2023 14:13:47 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (4cee294ff5762d7460fcbdec1bca5d4f)
+[INFO] 12-12-2023 14:13:47 [main] [LogUtils] - Screenshot taken: EdxAutomation
+[INFO] 12-12-2023 14:13:47 [main] [LogUtils] - Screenshot taken current URL: https://www.edx.org/learn/how-to-learn/edx-how-to-learn-online
+[INFO] 12-12-2023 14:13:47 [main] [LogUtils] -  --- Starting: closeDriver
+[INFO] 12-12-2023 14:13:48 [main] [LogUtils] -  --- Ending: closeDriver
+[INFO] 12-12-2023 14:13:48 [main] [LogUtils] - End Suite: Surefire suite

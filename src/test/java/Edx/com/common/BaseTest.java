@@ -1,5 +1,8 @@
 package Edx.com.common;
 import selenium4.com.listeners.TestListener;
+
+import static selenium4.com.constants.FrameworkConstants.BROWSER;
+
 //import session2.com.projects.cms.CommonPageCMS;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ThreadGuard;
@@ -15,16 +18,19 @@ import selenium4.com.helpers.WebElementsHelpers;
 
 @Listeners({TestListener.class})
 public class BaseTest {
-	@Parameters({"browser","course_url"})
 	@BeforeMethod(alwaysRun = true)
-	public void BeginWebTest(String browser,String course_url) {
-		System.setProperty("webdriver.http.factory", "jdk-http-client"); //xu ly exception
-//		System.out.println("Luong debug");
-		WebDriver driver = ThreadGuard.protect(new TargetFactory().createInstance(browser)); //run paral with nhieu thread
+	public void BeginWebTest() {
+		String browser;
+		System.setProperty("webdriver.http.factory", "jdk-http-client");
+		if (System.getProperty("BROWSER") != null) {
+			browser = System.getProperty("BROWSER").toLowerCase();
+		} else {
+			browser = BROWSER.toLowerCase();
+		}
+		//System.out.println("----- Browser in BeforeMethod: " + browser);
+		WebDriver driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
 		DriverManager.setDriver(driver);
 		driver.manage().window().maximize();
-		
-		WebElementsHelpers.getURL(course_url);
 		
 	}
 

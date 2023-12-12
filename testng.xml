@@ -2,8 +2,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test name="Test">
-	  <parameter name="course_url" value="https://www.edx.org/learn/how-to-learn/edx-how-to-learn-online" />
-	  <parameter name="browser" value="chrome" />
     <classes>
       <class name="Edx.com.testcases.EdxTest"/>
       <class name="Edx.com.common.BaseTest"/>

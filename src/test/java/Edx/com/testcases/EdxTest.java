@@ -3,21 +3,11 @@ package Edx.com.testcases;
 import org.testng.annotations.*;
 import Edx.com.common.BaseTest;
 import Edx.com.common.WordDocumentWriter;
-import Edx.com.pages.EdxCourseContentPage;
-import Edx.com.pages.EdxLearnerHomePage;
 import Edx.com.pages.EdxLoginPage;
 import Edx.com.pages.EdxOverviewPage;
-
+import static selenium4.com.constants.FrameworkConstants.COURSE_URL;
 import static selenium4.com.helpers.WebElementsHelpers.*;
-
-import java.util.List;
-import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
-import io.qameta.allure.Epic;
-import io.qameta.allure.Feature;
-import selenium4.com.constants.FrameworkConstants;
 import selenium4.com.helpers.ScreenshotHelpers;
-import selenium4.com.helpers.WebElementsHelpers;
-import selenium4.com.utils.UserInput;
 
 
 //@Epic("Regression Test")
@@ -27,7 +17,13 @@ public class EdxTest extends BaseTest {
 	public String password="kdAVt6`m";
 	@Test(priority = 0)
 	public void EdxAutomation() {
-		
+		String url;
+		if (System.getProperty("COURSE_URL") != null) {
+			url = System.getProperty("COURSE_URL").toLowerCase();
+		} else {
+			url = COURSE_URL.toLowerCase();
+		}
+		getURL(url);
 		EdxOverviewPage edxOverview= new EdxOverviewPage();
 		WordDocumentWriter doc=new WordDocumentWriter();
 		String durationCourse=edxOverview.getDurationCourse();
