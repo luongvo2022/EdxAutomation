@@ -173,7 +173,7 @@
 					<configuration>
 						<systemPropertyVariables>
 							<executionBrowser>${BROWSER}</executionBrowser>
-							<executionCourseURL>${COURSEURL}</executionCourseURL>
+							<executionCourseURL>${COURSE_URL}</executionCourseURL>
 						</systemPropertyVariables>
 					</configuration>
 				</plugin>

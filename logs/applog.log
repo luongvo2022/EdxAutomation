@@ -95,3 +95,36 @@ Session ID: 4cee294ff5762d7460fcbdec1bca5d4f
 [INFO] 12-12-2023 14:13:47 [main] [LogUtils] -  --- Starting: closeDriver
 [INFO] 12-12-2023 14:13:48 [main] [LogUtils] -  --- Ending: closeDriver
 [INFO] 12-12-2023 14:13:48 [main] [LogUtils] - End Suite: Surefire suite
+[INFO] 12-12-2023 23:56:37 [main] [LogUtils] - Starting Suite: Surefire suite
+[INFO] 12-12-2023 23:56:37 [main] [LogUtils] -  --- Starting: BeginWebTest
+[INFO] 12-12-2023 23:56:41 [main] [LogUtils] -  --- Ending: BeginWebTest
+[INFO] 12-12-2023 23:56:41 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-12-2023 23:56:41 [main] [LogUtils] -  --- Starting: EdxAutomation
+[INFO] 12-12-2023 23:56:43 [main] [LogUtils] - Open URL: https://www.edx.org/learn/how-to-learn/edx-how-to-learn-online
+[INFO] 12-12-2023 23:56:43 [main] [LogUtils] - Scroll to element By.xpath: //div[contains(text(),'weeks')]
+[INFO] 12-12-2023 23:56:44 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),'weeks')]
+[INFO] 12-12-2023 23:56:45 [main] [LogUtils] - Verify element visible By.xpath: //div[@class="col-md-7 pr-4"]/h1
+[INFO] 12-12-2023 23:56:45 [main] [LogUtils] - Verify element visible By.xpath: //div[@class="p"]
+[INFO] 12-12-2023 23:56:45 [main] [LogUtils] - Scroll to element By.xpath: //h1[@class="h1 nav-target pt-3 mt-3 pt-sm-5 mt-sm-2"]
+[INFO] 12-12-2023 23:56:45 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Show more' and @id='outcome']
+[INFO] 12-12-2023 23:56:47 [main] [LogUtils] -  --- Ending: EdxAutomation
+[ERROR] 12-12-2023 23:56:47 [main] [LogUtils] - Test case:  is failed.
+[INFO] 12-12-2023 23:56:47 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (2a89d5fb356b99b361de697c012558d6)
+[INFO] 12-12-2023 23:56:48 [main] [LogUtils] - Screenshot taken: EdxAutomation
+[INFO] 12-12-2023 23:56:48 [main] [LogUtils] - Screenshot taken current URL: https://www.edx.org/learn/how-to-learn/edx-how-to-learn-online
+[ERROR] 12-12-2023 23:56:48 [main] [LogUtils] - FAILED !! Screenshot for test case: EdxAutomation
+[ERROR] 12-12-2023 23:56:48 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="preview-expand-cta btn btn-link mt-2 pt-1 pt-sm-2 px-0 pb-0" id="outcome" type="button">...</button> is not clickable at point (413, 16). Other element would receive the click: <h5 class="h5 text-primary-100 mx-auto py-2 mb-0">...</h5>
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2a89d5fb356b99b361de697c012558d6, clickElement {id=C727D05AA9B1CDB658D7C809B2E5DFC6_element_35}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\vtluong\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56038}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56038/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2a89d5fb356b99b361de697c012558d6)] -> xpath: //button[text()='Show more' and @id='outcome']]
+Session ID: 2a89d5fb356b99b361de697c012558d6
+[INFO] 12-12-2023 23:56:48 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (2a89d5fb356b99b361de697c012558d6)
+[INFO] 12-12-2023 23:56:48 [main] [LogUtils] - Screenshot taken: EdxAutomation
+[INFO] 12-12-2023 23:56:48 [main] [LogUtils] - Screenshot taken current URL: https://www.edx.org/learn/how-to-learn/edx-how-to-learn-online
+[INFO] 12-12-2023 23:56:48 [main] [LogUtils] -  --- Starting: closeDriver
+[INFO] 12-12-2023 23:56:49 [main] [LogUtils] -  --- Ending: closeDriver
+[INFO] 12-12-2023 23:56:49 [main] [LogUtils] - End Suite: Surefire suite
