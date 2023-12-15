@@ -1,6 +1,6 @@
 package Edx.com.pages;
 import static selenium4.com.helpers.WebElementsHelpers.*;
-
+import selenium4.com.utils.LogUtils;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -35,11 +35,14 @@ public class EdxCourseContentPage {
 		smartWait();
 		sleep(5);
 		scrollToElementToBottom(Title);
-		System.out.println(getListElementsText(Title));
+		LogUtils.info("Get list Title:"+getListElementsText(Title));
+//		System.out.println(getListElementsText(Title));
 		return getListElementsText(Title);
 	}
 	public List<String> getListSubTitle_content(){
-		System.out.println(getListElementsText(SubTtitle));
+		LogUtils.info("Get subTitle:"+getListElementsText(SubTtitle));
+//		System.out.println(getListElementsText(SubTtitle));'
+		System.out.println(getAttributeElement(SubTtitle, "href"));
 		return getListElementsText(SubTtitle);
 	}
 }

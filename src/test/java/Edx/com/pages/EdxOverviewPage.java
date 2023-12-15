@@ -43,8 +43,9 @@ public class EdxOverviewPage {
 		scrollToElementToBottom(WhatLearn);
 		smartWait();
 //		System.out.println("Luong debug");
-		clickElement(ShowMore);
-//		System.out.println("Luong debug2");
+		sleep(5);
+		clickElement(ShowMore,5);
+		sleep(5);
 		return getListElementsText(WhatLearnContent);		
 		
 	}
