@@ -39,11 +39,26 @@ public class EdxTest extends BaseTest {
 		edx=edxfactory.createPage(EdxPageType.courseContent);
 		doc.addCourseContent(edx);
 		doc.addDurationCourse(durationCourse);
+		doc.addCourseLink(url);
 		doc.saveToFile("OutputFiles/course1.docx");
 //	    System.out.println(edx.getIntructor_FullName().get(0));
 		
 	
 	}
-	
+	@Test
+	public void failTC() {
+		String url;
+		if (System.getProperty("COURSE_URL") != null) {
+			url = System.getProperty("COURSE_URL").toLowerCase();
+		} else {
+			url = COURSE_URL.toLowerCase();
+		}
+		getURL(url);
+		EdxFactory edxfactory=new EdxFactory();
+		EdxPage edx=edxfactory.createPage(EdxPageType.overView);
+		edx.getInfor(EdxContentType.CourseName);
+		edx=edxfactory.createPage(EdxPageType.login);
+		edx.takeAction(EdxActionType.login);
+	}
 	
 }

@@ -7,7 +7,7 @@
         <methods>
           <include name="closeDriver"/>
           <include name="BeginWebTest"/>
-          <include name="EdxAutomation"/>
+          <include name="failTC"/>
         </methods>
       </class> <!-- Edx.com.testcases.EdxTest -->
     </classes>

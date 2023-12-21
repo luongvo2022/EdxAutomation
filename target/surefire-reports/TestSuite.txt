@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 180.799 s - in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 208.191 s <<< FAILURE! - in TestSuite
+failTC(Edx.com.testcases.EdxTest)  Time elapsed: 34.426 s  <<< FAILURE!
+java.lang.AssertionError: Element not exist. By.name: audit_mode
+	at Edx.com.testcases.EdxTest.failTC(EdxTest.java:61)
+

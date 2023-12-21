@@ -185,6 +185,15 @@ public class WordDocumentWriter {
 		this.addContent(this.addContent("Duration Course:", fontDefault, sizeDefault, true, false, false, colorDefault), content, fontDefault, sizeDefault, colorDefault);
 	}
 	
+	public void addCourseLink(String courselink) {
+		XWPFParagraph paragraph =this.addContent("Course link: ", fontDefault, sizeDefault, true, false, false, colorDefault);
+        // Create a run and set the text (URL)
+        XWPFRun run = paragraph.createHyperlinkRun(courselink);
+        run.setUnderline(UnderlinePatterns.SINGLE);
+        run.setColor(url_color);
+        run.setText(courselink);
+	}
+	
 	public void addHyperlink(XWPFParagraph paragraph, String Text, String hyperlink) {
         // Create a hyperlink run
         XWPFRun run = paragraph.createHyperlinkRun(hyperlink);

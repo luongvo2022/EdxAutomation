@@ -1,0 +1,1081 @@
+[INFO] 21-12-2023 22:29:25 [main] [LogUtils] - Starting Suite: Surefire suite
+[INFO] 21-12-2023 22:29:25 [main] [LogUtils] -  --- Starting: BeginWebTest
+[INFO] 21-12-2023 22:29:28 [main] [LogUtils] -  --- Ending: BeginWebTest
+[INFO] 21-12-2023 22:29:28 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-12-2023 22:29:28 [main] [LogUtils] -  --- Starting: EdxAutomation
+[INFO] 21-12-2023 22:29:52 [main] [LogUtils] - Open URL: https://www.edx.org/learn/excel/university-of-british-columbia-excel-for-everyone-data-management
+[INFO] 21-12-2023 22:29:52 [main] [LogUtils] - Create a document
+[INFO] 21-12-2023 22:29:52 [main] [LogUtils] - Navigate to EdxOverview Page
+[INFO] 21-12-2023 22:29:52 [main] [LogUtils] - Scroll to element By.xpath: //div[contains(text(),'weeks')]
+[INFO] 21-12-2023 22:29:52 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),'weeks')]
+[INFO] 21-12-2023 22:29:52 [main] [LogUtils] - Get text of elementBy.xpath: //div[contains(text(),'weeks')]
+[INFO] 21-12-2023 22:29:52 [main] [LogUtils] - 6 weeks
+[INFO] 21-12-2023 22:29:53 [main] [LogUtils] - Verify element visible By.xpath: //div[@class="col-md-7 pr-4"]/h1
+[INFO] 21-12-2023 22:29:53 [main] [LogUtils] - Get text of elementBy.xpath: //div[@class="col-md-7 pr-4"]/h1
+[INFO] 21-12-2023 22:29:53 [main] [LogUtils] - UBCx: Excel for Everyone: Data Management
+[INFO] 21-12-2023 22:29:53 [main] [LogUtils] - Verify element visible By.xpath: //div[@class="p"]
+[INFO] 21-12-2023 22:29:53 [main] [LogUtils] - Get text of elementBy.xpath: //div[@class="p"]
+[INFO] 21-12-2023 22:29:53 [main] [LogUtils] - Further your Excel skills to manage larger datasets and more complex data wrangling, management and modelling.
+[INFO] 21-12-2023 22:29:53 [main] [LogUtils] - Scroll to element By.xpath: //h1[@class="h1 nav-target pt-3 mt-3 pt-sm-5 mt-sm-2"]
+[INFO] 21-12-2023 22:29:58 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Show more' and @id='outcome']
+[INFO] 21-12-2023 22:29:58 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Show more' and @id='outcome']
+[INFO] 21-12-2023 22:30:03 [main] [LogUtils] - Get List Element TextBy.xpath: //div[@class="mt-2 html-data"]/ul/li
+[INFO] 21-12-2023 22:30:03 [main] [LogUtils] - Get List Element TextBy.xpath: //h3[@class="lead font-weight-bold text-primary-100 mt-2 mb-3"]
+[INFO] 21-12-2023 22:30:03 [main] [LogUtils] - Get List Element TextBy.xpath: //span[@width="0"]
+[INFO] 21-12-2023 22:30:03 [main] [LogUtils] - Verify element visible By.xpath: //a[text()="Enroll"]
+[INFO] 21-12-2023 22:30:04 [main] [LogUtils] - Clicked on the element By.xpath: //a[text()="Enroll"]
+[INFO] 21-12-2023 22:30:19 [main] [LogUtils] - Verify element visible By.xpath: //a[text()='Sign in']
+[INFO] 21-12-2023 22:30:19 [main] [LogUtils] - Verify element visible By.xpath: //a[text()='Sign in']
+[INFO] 21-12-2023 22:30:20 [main] [LogUtils] - Clicked on the element By.xpath: //a[text()='Sign in']
+[INFO] 21-12-2023 22:30:20 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="emailOrUsername"]
+[INFO] 21-12-2023 22:30:20 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="emailOrUsername"]
+[INFO] 21-12-2023 22:30:20 [main] [LogUtils] - Clear and Fill luongvo2022 on By.xpath: //input[@name="emailOrUsername"]
+[INFO] 21-12-2023 22:30:20 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="password"]
+[INFO] 21-12-2023 22:30:20 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="password"]
+[INFO] 21-12-2023 22:30:20 [main] [LogUtils] - Clear and Fill kdAVt6`m on By.xpath: //input[@name="password"]
+[INFO] 21-12-2023 22:30:20 [main] [LogUtils] - Verify element visible By.xpath: //span[text()="Sign in"]
+[INFO] 21-12-2023 22:30:21 [main] [LogUtils] - Clicked on the element By.xpath: //span[text()="Sign in"]
+[INFO] 21-12-2023 22:30:29 [main] [LogUtils] - Verify element visible By.name: audit_mode
+[INFO] 21-12-2023 22:30:31 [main] [LogUtils] - Clicked on the element By.name: audit_mode
+[INFO] 21-12-2023 22:30:46 [main] [LogUtils] - Get List Element TextBy.xpath: //div[@class="col-10 ml-3 p-0 font-weight-bold text-dark-500"]/span[@class="align-middle"]
+[INFO] 21-12-2023 22:30:47 [main] [LogUtils] - Get list Title:[Getting Started, Materials and Resources, Week 1: Introduction, Week 2: Data Cleaning & Maintenance, Weeks 1 and 2: Practice Challenge, Weeks 1 and 2: Knowledge Assessment, Week 3: Working with Structured Tables, Week 4: Organizing your Data with Pivot Tables, Weeks 3 and 4: Practice Challenge, Weeks 3 and 4: Knowledge Assessment, Week 5: Working with External Data, Week 6: Building Data Modeling in Excel, Weeks 5 and 6: Knowledge Assessment, Final Exam, Course Wrap Up and Evaluation]
+[INFO] 21-12-2023 22:30:47 [main] [LogUtils] - Get List Element TextBy.xpath: //div[@class="col-10 ml-3 p-0 font-weight-bold text-dark-500"]/span[@class="align-middle"]
+[INFO] 21-12-2023 22:30:47 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Getting Started")]/../../../span/button
+[INFO] 21-12-2023 22:30:47 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Getting Started")]/../../../span/button
+[INFO] 21-12-2023 22:30:47 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Getting Started")]/../../../span/button
+[INFO] 21-12-2023 22:30:47 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:30:47 [main] [LogUtils] - Get subTitle:[About Excel for Everyone: Data Management, ]
+[INFO] 21-12-2023 22:30:47 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:30:48 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:30:48 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@8ebcf5a6640d4e0aa9db554d3083fbc4
+[INFO] 21-12-2023 22:30:48 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:30:48 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:30:48 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@d5410fce346b49bfbd261c11dcec6c91
+[INFO] 21-12-2023 22:30:48 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:30:48 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:30:49 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:30:54 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Materials and Resources")]/../../../span/button
+[INFO] 21-12-2023 22:30:54 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Materials and Resources")]/../../../span/button
+[INFO] 21-12-2023 22:30:54 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Materials and Resources")]/../../../span/button
+[INFO] 21-12-2023 22:30:54 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:30:55 [main] [LogUtils] - Get subTitle:[Resources]
+[INFO] 21-12-2023 22:30:55 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:30:55 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:30:55 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@2f872066c356486c99fb8d6973186a0a
+[INFO] 21-12-2023 22:30:55 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:30:55 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:30:56 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:31:01 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 1: Introduction")]/../../../span/button
+[INFO] 21-12-2023 22:31:01 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 1: Introduction")]/../../../span/button
+[INFO] 21-12-2023 22:31:01 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 1: Introduction")]/../../../span/button
+[INFO] 21-12-2023 22:31:01 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:31:02 [main] [LogUtils] - Get subTitle:[Content: Introduction, Week 1: Discussion]
+[INFO] 21-12-2023 22:31:02 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:31:02 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:31:02 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@47eb22949eb742c982c3dcd709078e73
+[INFO] 21-12-2023 22:31:02 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:31:02 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:31:02 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@7be7a9be700d4df896c58512a5a89d08
+[INFO] 21-12-2023 22:31:02 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:31:02 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:31:03 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:31:08 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 2: Data Cleaning & Maintenance")]/../../../span/button
+[INFO] 21-12-2023 22:31:08 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 2: Data Cleaning & Maintenance")]/../../../span/button
+[INFO] 21-12-2023 22:31:09 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 2: Data Cleaning & Maintenance")]/../../../span/button
+[INFO] 21-12-2023 22:31:09 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:31:09 [main] [LogUtils] - Get subTitle:[Content: Data Cleaning & Maintenance, Week 2: Discussion]
+[INFO] 21-12-2023 22:31:09 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:31:09 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:31:09 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@861a3d6fed3f487fb926a35ae395d555
+[INFO] 21-12-2023 22:31:09 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:31:09 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:31:09 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@51f6fbd05ca049b8a137b0793a4d4477
+[INFO] 21-12-2023 22:31:09 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:31:10 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:31:10 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:31:15 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 1 and 2: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 22:31:15 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 1 and 2: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 22:31:16 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 1 and 2: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 22:31:16 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:31:16 [main] [LogUtils] - Get subTitle:[Practice Challenge 1]
+[INFO] 21-12-2023 22:31:16 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:31:17 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:31:17 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@012e42df6fa447b39d1ecb4a967fdf9b
+[INFO] 21-12-2023 22:31:17 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:31:17 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:31:17 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:31:22 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 1 and 2: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:31:22 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 1 and 2: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:31:23 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 1 and 2: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:31:23 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:31:24 [main] [LogUtils] - Get subTitle:[Knowledge Check 1]
+[INFO] 21-12-2023 22:31:24 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:31:24 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:31:24 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@94d11a4555a549c7ae77c879aa4a8567
+[INFO] 21-12-2023 22:31:24 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:31:24 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:31:24 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:31:29 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 3: Working with Structured Tables")]/../../../span/button
+[INFO] 21-12-2023 22:31:29 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 3: Working with Structured Tables")]/../../../span/button
+[INFO] 21-12-2023 22:31:30 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 3: Working with Structured Tables")]/../../../span/button
+[INFO] 21-12-2023 22:31:30 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:31:31 [main] [LogUtils] - Get subTitle:[Content: Working with Structured Tables, Week 3: Discussion]
+[INFO] 21-12-2023 22:31:31 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:31:31 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:31:31 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@31969368ec2640b582ae28c82fe5644f
+[INFO] 21-12-2023 22:31:31 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:31:31 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:31:31 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@4464e3d6c1bb48a78fbdee4a6fda7558
+[INFO] 21-12-2023 22:31:31 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:31:31 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:31:32 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:31:37 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 4: Organizing your Data with Pivot Tables")]/../../../span/button
+[INFO] 21-12-2023 22:31:37 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 4: Organizing your Data with Pivot Tables")]/../../../span/button
+[INFO] 21-12-2023 22:31:37 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 4: Organizing your Data with Pivot Tables")]/../../../span/button
+[INFO] 21-12-2023 22:31:37 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:31:38 [main] [LogUtils] - Get subTitle:[Content: Organizing your Data with Pivot Tables, Week 4: Discussion]
+[INFO] 21-12-2023 22:31:38 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:31:38 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:31:38 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@1a904845e4734ee0897df1adb1788d2c
+[INFO] 21-12-2023 22:31:38 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:31:38 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:31:38 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@285ae8a0fa314bf49b8f1cacc8aa8d65
+[INFO] 21-12-2023 22:31:38 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:31:38 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:31:39 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:31:44 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 3 and 4: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 22:31:44 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 3 and 4: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 22:31:45 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 3 and 4: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 22:31:45 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:31:45 [main] [LogUtils] - Get subTitle:[Practice Challenge 2]
+[INFO] 21-12-2023 22:31:45 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:31:45 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:31:45 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@b9aa0af2b6fb439abdcee194f9915571
+[INFO] 21-12-2023 22:31:45 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:31:45 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:31:46 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:31:51 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 3 and 4: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:31:51 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 3 and 4: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:31:52 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 3 and 4: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:31:52 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:31:52 [main] [LogUtils] - Get subTitle:[Knowledge Check 2]
+[INFO] 21-12-2023 22:31:52 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:31:52 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:31:52 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@93211ab2a57742b3a5568830a96bf61a
+[INFO] 21-12-2023 22:31:52 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:31:52 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:31:53 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:31:58 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 5: Working with External Data")]/../../../span/button
+[INFO] 21-12-2023 22:31:58 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 5: Working with External Data")]/../../../span/button
+[INFO] 21-12-2023 22:31:59 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 5: Working with External Data")]/../../../span/button
+[INFO] 21-12-2023 22:31:59 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:31:59 [main] [LogUtils] - Get subTitle:[Content: Working with External Data, Week 5: Discussion]
+[INFO] 21-12-2023 22:31:59 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:31:59 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:31:59 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@9fa0644c278d42c9a5509bd05e7cc433
+[INFO] 21-12-2023 22:31:59 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:31:59 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:31:59 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@a5519d2f92f545898a1282ac23aa65dc
+[INFO] 21-12-2023 22:31:59 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:32:00 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:32:00 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:32:05 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 6: Building Data Modeling in Excel")]/../../../span/button
+[INFO] 21-12-2023 22:32:05 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 6: Building Data Modeling in Excel")]/../../../span/button
+[INFO] 21-12-2023 22:32:06 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 6: Building Data Modeling in Excel")]/../../../span/button
+[INFO] 21-12-2023 22:32:06 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:32:06 [main] [LogUtils] - Get subTitle:[Content: All About Printing in Excel, Week 6: Discussion]
+[INFO] 21-12-2023 22:32:06 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:32:06 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:32:07 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@8a20b692a06b46bca29d8005c0d3fa18
+[INFO] 21-12-2023 22:32:07 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:32:07 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:32:07 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@da7e01d1aecc41bc8666059fa79d3de3
+[INFO] 21-12-2023 22:32:07 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:32:07 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:32:07 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:32:12 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 5 and 6: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:32:12 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 5 and 6: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:32:13 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 5 and 6: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:32:13 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:32:14 [main] [LogUtils] - Get subTitle:[Knowledge Assessment 3]
+[INFO] 21-12-2023 22:32:14 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:32:14 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:32:14 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@9d3f6a87576d48b9bf3403bf732836f6
+[INFO] 21-12-2023 22:32:14 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:32:14 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:32:14 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:32:19 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Final Exam")]/../../../span/button
+[INFO] 21-12-2023 22:32:20 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Final Exam")]/../../../span/button
+[INFO] 21-12-2023 22:32:20 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Final Exam")]/../../../span/button
+[INFO] 21-12-2023 22:32:20 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:32:21 [main] [LogUtils] - Get subTitle:[Exam and Resources]
+[INFO] 21-12-2023 22:32:21 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:32:21 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:32:21 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@d2a4ddcdac19436bb82e73ecdae75e91
+[INFO] 21-12-2023 22:32:21 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:32:21 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:32:21 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:32:27 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Course Wrap Up and Evaluation")]/../../../span/button
+[INFO] 21-12-2023 22:32:27 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Course Wrap Up and Evaluation")]/../../../span/button
+[INFO] 21-12-2023 22:32:27 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Course Wrap Up and Evaluation")]/../../../span/button
+[INFO] 21-12-2023 22:32:27 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:32:28 [main] [LogUtils] - Get subTitle:[Course Wrap Up, Course Exit Survey]
+[INFO] 21-12-2023 22:32:28 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:32:28 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:32:28 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@9acdee77a0684d95b1e355f1ff144ef1
+[INFO] 21-12-2023 22:32:28 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:32:28 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:32:28 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@84f5ec7f540b4f9f8897fa862610b3a9
+[INFO] 21-12-2023 22:32:28 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:32:28 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:32:29 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:32:34 [main] [LogUtils] -  --- Ending: EdxAutomation
+[INFO] 21-12-2023 22:32:34 [main] [LogUtils] - Test case:  is passed.
+[INFO] 21-12-2023 22:32:34 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (86dd0adb5533c8b2191cf95eb705f72a)
+[INFO] 21-12-2023 22:32:34 [main] [LogUtils] - Screenshot taken: EdxAutomation
+[INFO] 21-12-2023 22:32:34 [main] [LogUtils] - Screenshot taken current URL: https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/home
+[INFO] 21-12-2023 22:32:34 [main] [LogUtils] -  --- Starting: closeDriver
+[INFO] 21-12-2023 22:32:35 [main] [LogUtils] -  --- Ending: closeDriver
+[INFO] 21-12-2023 22:32:35 [main] [LogUtils] - End Suite: Surefire suite
+[INFO] 21-12-2023 22:43:02 [main] [LogUtils] - Starting Suite: Surefire suite
+[INFO] 21-12-2023 22:43:02 [main] [LogUtils] -  --- Starting: BeginWebTest
+[INFO] 21-12-2023 22:43:04 [main] [LogUtils] -  --- Ending: BeginWebTest
+[INFO] 21-12-2023 22:43:04 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-12-2023 22:43:04 [main] [LogUtils] -  --- Starting: EdxAutomation
+[INFO] 21-12-2023 22:43:08 [main] [LogUtils] - Open URL: https://www.edx.org/learn/excel/university-of-british-columbia-excel-for-everyone-data-management
+[INFO] 21-12-2023 22:43:09 [main] [LogUtils] - Create a document
+[INFO] 21-12-2023 22:43:09 [main] [LogUtils] - Navigate to EdxOverview Page
+[INFO] 21-12-2023 22:43:09 [main] [LogUtils] - Scroll to element By.xpath: //div[contains(text(),'weeks')]
+[INFO] 21-12-2023 22:43:09 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),'weeks')]
+[INFO] 21-12-2023 22:43:09 [main] [LogUtils] - Get text of elementBy.xpath: //div[contains(text(),'weeks')]
+[INFO] 21-12-2023 22:43:09 [main] [LogUtils] - 6 weeks
+[INFO] 21-12-2023 22:43:09 [main] [LogUtils] - Verify element visible By.xpath: //div[@class="col-md-7 pr-4"]/h1
+[INFO] 21-12-2023 22:43:09 [main] [LogUtils] - Get text of elementBy.xpath: //div[@class="col-md-7 pr-4"]/h1
+[INFO] 21-12-2023 22:43:09 [main] [LogUtils] - UBCx: Excel for Everyone: Data Management
+[INFO] 21-12-2023 22:43:09 [main] [LogUtils] - Verify element visible By.xpath: //div[@class="p"]
+[INFO] 21-12-2023 22:43:09 [main] [LogUtils] - Get text of elementBy.xpath: //div[@class="p"]
+[INFO] 21-12-2023 22:43:09 [main] [LogUtils] - Further your Excel skills to manage larger datasets and more complex data wrangling, management and modelling.
+[INFO] 21-12-2023 22:43:09 [main] [LogUtils] - Scroll to element By.xpath: //h1[@class="h1 nav-target pt-3 mt-3 pt-sm-5 mt-sm-2"]
+[INFO] 21-12-2023 22:43:15 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Show more' and @id='outcome']
+[INFO] 21-12-2023 22:43:15 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Show more' and @id='outcome']
+[INFO] 21-12-2023 22:43:20 [main] [LogUtils] - Get List Element TextBy.xpath: //div[@class="mt-2 html-data"]/ul/li
+[INFO] 21-12-2023 22:43:20 [main] [LogUtils] - Get List Element TextBy.xpath: //h3[@class="lead font-weight-bold text-primary-100 mt-2 mb-3"]
+[INFO] 21-12-2023 22:43:20 [main] [LogUtils] - Get List Element TextBy.xpath: //span[@width="0"]
+[INFO] 21-12-2023 22:43:20 [main] [LogUtils] - Verify element visible By.xpath: //a[text()="Enroll"]
+[INFO] 21-12-2023 22:43:21 [main] [LogUtils] - Clicked on the element By.xpath: //a[text()="Enroll"]
+[INFO] 21-12-2023 22:43:36 [main] [LogUtils] - Verify element visible By.xpath: //a[text()='Sign in']
+[INFO] 21-12-2023 22:43:36 [main] [LogUtils] - Verify element visible By.xpath: //a[text()='Sign in']
+[INFO] 21-12-2023 22:43:36 [main] [LogUtils] - Clicked on the element By.xpath: //a[text()='Sign in']
+[INFO] 21-12-2023 22:43:37 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="emailOrUsername"]
+[INFO] 21-12-2023 22:43:37 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="emailOrUsername"]
+[INFO] 21-12-2023 22:43:37 [main] [LogUtils] - Clear and Fill luongvo2022 on By.xpath: //input[@name="emailOrUsername"]
+[INFO] 21-12-2023 22:43:37 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="password"]
+[INFO] 21-12-2023 22:43:37 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="password"]
+[INFO] 21-12-2023 22:43:37 [main] [LogUtils] - Clear and Fill kdAVt6`m on By.xpath: //input[@name="password"]
+[INFO] 21-12-2023 22:43:37 [main] [LogUtils] - Verify element visible By.xpath: //span[text()="Sign in"]
+[INFO] 21-12-2023 22:43:38 [main] [LogUtils] - Clicked on the element By.xpath: //span[text()="Sign in"]
+[INFO] 21-12-2023 22:43:44 [main] [LogUtils] - Verify element visible By.name: audit_mode
+[INFO] 21-12-2023 22:43:48 [main] [LogUtils] - Clicked on the element By.name: audit_mode
+[INFO] 21-12-2023 22:44:03 [main] [LogUtils] - Get List Element TextBy.xpath: //div[@class="col-10 ml-3 p-0 font-weight-bold text-dark-500"]/span[@class="align-middle"]
+[INFO] 21-12-2023 22:44:03 [main] [LogUtils] - Get list Title:[Getting Started, Materials and Resources, Week 1: Introduction, Week 2: Data Cleaning & Maintenance, Weeks 1 and 2: Practice Challenge, Weeks 1 and 2: Knowledge Assessment, Week 3: Working with Structured Tables, Week 4: Organizing your Data with Pivot Tables, Weeks 3 and 4: Practice Challenge, Weeks 3 and 4: Knowledge Assessment, Week 5: Working with External Data, Week 6: Building Data Modeling in Excel, Weeks 5 and 6: Knowledge Assessment, Final Exam, Course Wrap Up and Evaluation]
+[INFO] 21-12-2023 22:44:03 [main] [LogUtils] - Get List Element TextBy.xpath: //div[@class="col-10 ml-3 p-0 font-weight-bold text-dark-500"]/span[@class="align-middle"]
+[INFO] 21-12-2023 22:44:03 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Getting Started")]/../../../span/button
+[INFO] 21-12-2023 22:44:03 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Getting Started")]/../../../span/button
+[INFO] 21-12-2023 22:44:04 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Getting Started")]/../../../span/button
+[INFO] 21-12-2023 22:44:04 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:44:05 [main] [LogUtils] - Get subTitle:[About Excel for Everyone: Data Management, About edX]
+[INFO] 21-12-2023 22:44:05 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:44:05 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:44:05 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@8ebcf5a6640d4e0aa9db554d3083fbc4
+[INFO] 21-12-2023 22:44:05 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:44:05 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:44:05 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@d5410fce346b49bfbd261c11dcec6c91
+[INFO] 21-12-2023 22:44:05 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:44:05 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:44:06 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:44:11 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Materials and Resources")]/../../../span/button
+[INFO] 21-12-2023 22:44:11 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Materials and Resources")]/../../../span/button
+[INFO] 21-12-2023 22:44:11 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Materials and Resources")]/../../../span/button
+[INFO] 21-12-2023 22:44:11 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:44:12 [main] [LogUtils] - Get subTitle:[Resources]
+[INFO] 21-12-2023 22:44:12 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:44:12 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:44:12 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@2f872066c356486c99fb8d6973186a0a
+[INFO] 21-12-2023 22:44:12 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:44:12 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:44:13 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:44:18 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 1: Introduction")]/../../../span/button
+[INFO] 21-12-2023 22:44:18 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 1: Introduction")]/../../../span/button
+[INFO] 21-12-2023 22:44:18 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 1: Introduction")]/../../../span/button
+[INFO] 21-12-2023 22:44:18 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:44:19 [main] [LogUtils] - Get subTitle:[Content: Introduction, Week 1: Discussion]
+[INFO] 21-12-2023 22:44:19 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:44:19 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:44:19 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@47eb22949eb742c982c3dcd709078e73
+[INFO] 21-12-2023 22:44:19 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:44:19 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:44:19 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@7be7a9be700d4df896c58512a5a89d08
+[INFO] 21-12-2023 22:44:19 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:44:19 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:44:20 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:44:25 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 2: Data Cleaning & Maintenance")]/../../../span/button
+[INFO] 21-12-2023 22:44:25 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 2: Data Cleaning & Maintenance")]/../../../span/button
+[INFO] 21-12-2023 22:44:26 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 2: Data Cleaning & Maintenance")]/../../../span/button
+[INFO] 21-12-2023 22:44:26 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:44:26 [main] [LogUtils] - Get subTitle:[Content: Data Cleaning & Maintenance, Week 2: Discussion]
+[INFO] 21-12-2023 22:44:26 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:44:26 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:44:26 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@861a3d6fed3f487fb926a35ae395d555
+[INFO] 21-12-2023 22:44:26 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:44:26 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:44:27 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@51f6fbd05ca049b8a137b0793a4d4477
+[INFO] 21-12-2023 22:44:27 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:44:27 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:44:27 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:44:32 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 1 and 2: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 22:44:32 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 1 and 2: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 22:44:33 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 1 and 2: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 22:44:33 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:44:33 [main] [LogUtils] - Get subTitle:[Practice Challenge 1]
+[INFO] 21-12-2023 22:44:33 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:44:34 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:44:34 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@012e42df6fa447b39d1ecb4a967fdf9b
+[INFO] 21-12-2023 22:44:34 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:44:34 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:44:34 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:44:39 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 1 and 2: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:44:39 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 1 and 2: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:44:40 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 1 and 2: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:44:40 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:44:41 [main] [LogUtils] - Get subTitle:[Knowledge Check 1]
+[INFO] 21-12-2023 22:44:41 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:44:41 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:44:41 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@94d11a4555a549c7ae77c879aa4a8567
+[INFO] 21-12-2023 22:44:41 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:44:41 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:44:41 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:44:46 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 3: Working with Structured Tables")]/../../../span/button
+[INFO] 21-12-2023 22:44:46 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 3: Working with Structured Tables")]/../../../span/button
+[INFO] 21-12-2023 22:44:47 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 3: Working with Structured Tables")]/../../../span/button
+[INFO] 21-12-2023 22:44:47 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:44:48 [main] [LogUtils] - Get subTitle:[Content: Working with Structured Tables, Week 3: Discussion]
+[INFO] 21-12-2023 22:44:48 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:44:48 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:44:48 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@31969368ec2640b582ae28c82fe5644f
+[INFO] 21-12-2023 22:44:48 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:44:48 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:44:48 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@4464e3d6c1bb48a78fbdee4a6fda7558
+[INFO] 21-12-2023 22:44:48 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:44:48 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:44:49 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:44:54 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 4: Organizing your Data with Pivot Tables")]/../../../span/button
+[INFO] 21-12-2023 22:44:54 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 4: Organizing your Data with Pivot Tables")]/../../../span/button
+[INFO] 21-12-2023 22:44:54 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 4: Organizing your Data with Pivot Tables")]/../../../span/button
+[INFO] 21-12-2023 22:44:54 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:44:54 [main] [LogUtils] - Get subTitle:[Content: Organizing your Data with Pivot Tables, ]
+[INFO] 21-12-2023 22:44:54 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:44:54 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:44:54 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@1a904845e4734ee0897df1adb1788d2c
+[INFO] 21-12-2023 22:44:55 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:44:55 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:44:55 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@285ae8a0fa314bf49b8f1cacc8aa8d65
+[INFO] 21-12-2023 22:44:55 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:44:55 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:44:55 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:45:00 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 3 and 4: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 22:45:00 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 3 and 4: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 22:45:01 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 3 and 4: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 22:45:01 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:45:02 [main] [LogUtils] - Get subTitle:[Practice Challenge 2]
+[INFO] 21-12-2023 22:45:02 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:45:02 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:45:02 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@b9aa0af2b6fb439abdcee194f9915571
+[INFO] 21-12-2023 22:45:02 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:45:02 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:45:02 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:45:07 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 3 and 4: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:45:08 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 3 and 4: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:45:08 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 3 and 4: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:45:08 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:45:09 [main] [LogUtils] - Get subTitle:[Knowledge Check 2]
+[INFO] 21-12-2023 22:45:09 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:45:09 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:45:09 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@93211ab2a57742b3a5568830a96bf61a
+[INFO] 21-12-2023 22:45:09 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:45:09 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:45:09 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:45:14 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 5: Working with External Data")]/../../../span/button
+[INFO] 21-12-2023 22:45:15 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 5: Working with External Data")]/../../../span/button
+[INFO] 21-12-2023 22:45:15 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 5: Working with External Data")]/../../../span/button
+[INFO] 21-12-2023 22:45:15 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:45:16 [main] [LogUtils] - Get subTitle:[Content: Working with External Data, Week 5: Discussion]
+[INFO] 21-12-2023 22:45:16 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:45:16 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:45:16 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@9fa0644c278d42c9a5509bd05e7cc433
+[INFO] 21-12-2023 22:45:16 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:45:16 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:45:16 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@a5519d2f92f545898a1282ac23aa65dc
+[INFO] 21-12-2023 22:45:16 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:45:16 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:45:17 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:45:22 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 6: Building Data Modeling in Excel")]/../../../span/button
+[INFO] 21-12-2023 22:45:22 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 6: Building Data Modeling in Excel")]/../../../span/button
+[INFO] 21-12-2023 22:45:22 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 6: Building Data Modeling in Excel")]/../../../span/button
+[INFO] 21-12-2023 22:45:22 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:45:23 [main] [LogUtils] - Get subTitle:[Content: All About Printing in Excel, Week 6: Discussion]
+[INFO] 21-12-2023 22:45:23 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:45:23 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:45:23 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@8a20b692a06b46bca29d8005c0d3fa18
+[INFO] 21-12-2023 22:45:23 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:45:23 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:45:23 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@da7e01d1aecc41bc8666059fa79d3de3
+[INFO] 21-12-2023 22:45:23 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:45:23 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:45:24 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:45:29 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 5 and 6: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:45:29 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 5 and 6: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:45:29 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 5 and 6: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:45:29 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:45:30 [main] [LogUtils] - Get subTitle:[Knowledge Assessment 3]
+[INFO] 21-12-2023 22:45:30 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:45:30 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:45:30 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@9d3f6a87576d48b9bf3403bf732836f6
+[INFO] 21-12-2023 22:45:30 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:45:30 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:45:31 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:45:36 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Final Exam")]/../../../span/button
+[INFO] 21-12-2023 22:45:36 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Final Exam")]/../../../span/button
+[INFO] 21-12-2023 22:45:37 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Final Exam")]/../../../span/button
+[INFO] 21-12-2023 22:45:37 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:45:37 [main] [LogUtils] - Get subTitle:[Exam and Resources]
+[INFO] 21-12-2023 22:45:37 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:45:37 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:45:37 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@d2a4ddcdac19436bb82e73ecdae75e91
+[INFO] 21-12-2023 22:45:37 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:45:37 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:45:38 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:45:43 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Course Wrap Up and Evaluation")]/../../../span/button
+[INFO] 21-12-2023 22:45:43 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Course Wrap Up and Evaluation")]/../../../span/button
+[INFO] 21-12-2023 22:45:44 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Course Wrap Up and Evaluation")]/../../../span/button
+[INFO] 21-12-2023 22:45:44 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:45:44 [main] [LogUtils] - Get subTitle:[Course Wrap Up, Course Exit Survey]
+[INFO] 21-12-2023 22:45:44 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:45:44 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:45:44 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@9acdee77a0684d95b1e355f1ff144ef1
+[INFO] 21-12-2023 22:45:44 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:45:44 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:45:44 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@84f5ec7f540b4f9f8897fa862610b3a9
+[INFO] 21-12-2023 22:45:44 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:45:44 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:45:45 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:45:50 [main] [LogUtils] -  --- Ending: EdxAutomation
+[INFO] 21-12-2023 22:45:50 [main] [LogUtils] - Test case:  is passed.
+[INFO] 21-12-2023 22:45:50 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (f3cbece3719063d3133e3a6f31c4c57d)
+[INFO] 21-12-2023 22:45:50 [main] [LogUtils] - Screenshot taken: EdxAutomation
+[INFO] 21-12-2023 22:45:50 [main] [LogUtils] - Screenshot taken current URL: https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/home
+[INFO] 21-12-2023 22:45:50 [main] [LogUtils] -  --- Starting: closeDriver
+[INFO] 21-12-2023 22:45:51 [main] [LogUtils] -  --- Ending: closeDriver
+[INFO] 21-12-2023 22:45:51 [main] [LogUtils] - End Suite: Surefire suite
+[INFO] 21-12-2023 22:51:41 [main] [LogUtils] - Starting Suite: Surefire suite
+[INFO] 21-12-2023 22:51:41 [main] [LogUtils] -  --- Starting: BeginWebTest
+[INFO] 21-12-2023 22:51:42 [main] [LogUtils] -  --- Ending: BeginWebTest
+[INFO] 21-12-2023 22:51:43 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-12-2023 22:51:43 [main] [LogUtils] -  --- Starting: EdxAutomation
+[INFO] 21-12-2023 22:51:44 [main] [LogUtils] - Open URL: https://www.edx.org/learn/excel/university-of-british-columbia-excel-for-everyone-data-management
+[INFO] 21-12-2023 22:51:45 [main] [LogUtils] - Create a document
+[INFO] 21-12-2023 22:51:45 [main] [LogUtils] - Navigate to EdxOverview Page
+[INFO] 21-12-2023 22:51:45 [main] [LogUtils] - Scroll to element By.xpath: //div[contains(text(),'weeks')]
+[INFO] 21-12-2023 22:51:45 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),'weeks')]
+[INFO] 21-12-2023 22:51:45 [main] [LogUtils] - Get text of elementBy.xpath: //div[contains(text(),'weeks')]
+[INFO] 21-12-2023 22:51:46 [main] [LogUtils] - 6 weeks
+[INFO] 21-12-2023 22:51:46 [main] [LogUtils] - Verify element visible By.xpath: //div[@class="col-md-7 pr-4"]/h1
+[INFO] 21-12-2023 22:51:46 [main] [LogUtils] - Get text of elementBy.xpath: //div[@class="col-md-7 pr-4"]/h1
+[INFO] 21-12-2023 22:51:46 [main] [LogUtils] - UBCx: Excel for Everyone: Data Management
+[INFO] 21-12-2023 22:51:46 [main] [LogUtils] - Verify element visible By.xpath: //div[@class="p"]
+[INFO] 21-12-2023 22:51:47 [main] [LogUtils] - Get text of elementBy.xpath: //div[@class="p"]
+[INFO] 21-12-2023 22:51:47 [main] [LogUtils] - Further your Excel skills to manage larger datasets and more complex data wrangling, management and modelling.
+[INFO] 21-12-2023 22:51:47 [main] [LogUtils] - Scroll to element By.xpath: //h1[@class="h1 nav-target pt-3 mt-3 pt-sm-5 mt-sm-2"]
+[INFO] 21-12-2023 22:51:52 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Show more' and @id='outcome']
+[INFO] 21-12-2023 22:51:52 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Show more' and @id='outcome']
+[INFO] 21-12-2023 22:51:57 [main] [LogUtils] - Get List Element TextBy.xpath: //div[@class="mt-2 html-data"]/ul/li
+[INFO] 21-12-2023 22:51:57 [main] [LogUtils] - Get List Element TextBy.xpath: //h3[@class="lead font-weight-bold text-primary-100 mt-2 mb-3"]
+[INFO] 21-12-2023 22:51:57 [main] [LogUtils] - Get List Element TextBy.xpath: //span[@width="0"]
+[INFO] 21-12-2023 22:51:57 [main] [LogUtils] - Verify element visible By.xpath: //a[text()="Enroll"]
+[INFO] 21-12-2023 22:51:58 [main] [LogUtils] - Clicked on the element By.xpath: //a[text()="Enroll"]
+[INFO] 21-12-2023 22:52:13 [main] [LogUtils] - Verify element visible By.xpath: //a[text()='Sign in']
+[INFO] 21-12-2023 22:52:13 [main] [LogUtils] - Verify element visible By.xpath: //a[text()='Sign in']
+[INFO] 21-12-2023 22:52:14 [main] [LogUtils] - Clicked on the element By.xpath: //a[text()='Sign in']
+[INFO] 21-12-2023 22:52:14 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="emailOrUsername"]
+[INFO] 21-12-2023 22:52:14 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="emailOrUsername"]
+[INFO] 21-12-2023 22:52:14 [main] [LogUtils] - Clear and Fill luongvo2022 on By.xpath: //input[@name="emailOrUsername"]
+[INFO] 21-12-2023 22:52:14 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="password"]
+[INFO] 21-12-2023 22:52:14 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="password"]
+[INFO] 21-12-2023 22:52:14 [main] [LogUtils] - Clear and Fill kdAVt6`m on By.xpath: //input[@name="password"]
+[INFO] 21-12-2023 22:52:14 [main] [LogUtils] - Verify element visible By.xpath: //span[text()="Sign in"]
+[INFO] 21-12-2023 22:52:15 [main] [LogUtils] - Clicked on the element By.xpath: //span[text()="Sign in"]
+[INFO] 21-12-2023 22:52:22 [main] [LogUtils] - Verify element visible By.name: audit_mode
+[INFO] 21-12-2023 22:52:26 [main] [LogUtils] - Clicked on the element By.name: audit_mode
+[INFO] 21-12-2023 22:52:41 [main] [LogUtils] - Get List Element TextBy.xpath: //div[@class="col-10 ml-3 p-0 font-weight-bold text-dark-500"]/span[@class="align-middle"]
+[INFO] 21-12-2023 22:52:41 [main] [LogUtils] - Get list Title:[Getting Started, Materials and Resources, Week 1: Introduction, Week 2: Data Cleaning & Maintenance, Weeks 1 and 2: Practice Challenge, Weeks 1 and 2: Knowledge Assessment, Week 3: Working with Structured Tables, Week 4: Organizing your Data with Pivot Tables, Weeks 3 and 4: Practice Challenge, Weeks 3 and 4: Knowledge Assessment, Week 5: Working with External Data, Week 6: Building Data Modeling in Excel, Weeks 5 and 6: Knowledge Assessment, Final Exam, Course Wrap Up and Evaluation]
+[INFO] 21-12-2023 22:52:41 [main] [LogUtils] - Get List Element TextBy.xpath: //div[@class="col-10 ml-3 p-0 font-weight-bold text-dark-500"]/span[@class="align-middle"]
+[INFO] 21-12-2023 22:52:41 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Getting Started")]/../../../span/button
+[INFO] 21-12-2023 22:52:41 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Getting Started")]/../../../span/button
+[INFO] 21-12-2023 22:52:42 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Getting Started")]/../../../span/button
+[INFO] 21-12-2023 22:52:42 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:52:42 [main] [LogUtils] - Get subTitle:[About Excel for Everyone: Data Management, About edX]
+[INFO] 21-12-2023 22:52:42 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:52:42 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:52:43 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@8ebcf5a6640d4e0aa9db554d3083fbc4
+[INFO] 21-12-2023 22:52:43 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:52:43 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:52:43 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@d5410fce346b49bfbd261c11dcec6c91
+[INFO] 21-12-2023 22:52:43 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:52:43 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:52:43 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:52:48 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Materials and Resources")]/../../../span/button
+[INFO] 21-12-2023 22:52:49 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Materials and Resources")]/../../../span/button
+[INFO] 21-12-2023 22:52:49 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Materials and Resources")]/../../../span/button
+[INFO] 21-12-2023 22:52:49 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:52:50 [main] [LogUtils] - Get subTitle:[Resources]
+[INFO] 21-12-2023 22:52:50 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:52:50 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:52:50 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@2f872066c356486c99fb8d6973186a0a
+[INFO] 21-12-2023 22:52:50 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:52:50 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:52:51 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:52:56 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 1: Introduction")]/../../../span/button
+[INFO] 21-12-2023 22:52:56 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 1: Introduction")]/../../../span/button
+[INFO] 21-12-2023 22:52:56 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 1: Introduction")]/../../../span/button
+[INFO] 21-12-2023 22:52:56 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:52:57 [main] [LogUtils] - Get subTitle:[Content: Introduction, Week 1: Discussion]
+[INFO] 21-12-2023 22:52:57 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:52:57 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:52:57 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@47eb22949eb742c982c3dcd709078e73
+[INFO] 21-12-2023 22:52:57 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:52:57 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:52:57 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@7be7a9be700d4df896c58512a5a89d08
+[INFO] 21-12-2023 22:52:57 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:52:57 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:52:58 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:53:03 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 2: Data Cleaning & Maintenance")]/../../../span/button
+[INFO] 21-12-2023 22:53:03 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 2: Data Cleaning & Maintenance")]/../../../span/button
+[INFO] 21-12-2023 22:53:03 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 2: Data Cleaning & Maintenance")]/../../../span/button
+[INFO] 21-12-2023 22:53:03 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:53:03 [main] [LogUtils] - Get subTitle:[Content: Data Cleaning & Maintenance, ]
+[INFO] 21-12-2023 22:53:03 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:53:04 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:53:04 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@861a3d6fed3f487fb926a35ae395d555
+[INFO] 21-12-2023 22:53:04 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:53:04 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:53:04 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@51f6fbd05ca049b8a137b0793a4d4477
+[INFO] 21-12-2023 22:53:04 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:53:04 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:53:04 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:53:09 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 1 and 2: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 22:53:10 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 1 and 2: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 22:53:11 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 1 and 2: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 22:53:11 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:53:11 [main] [LogUtils] - Get subTitle:[Practice Challenge 1]
+[INFO] 21-12-2023 22:53:11 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:53:11 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:53:11 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@012e42df6fa447b39d1ecb4a967fdf9b
+[INFO] 21-12-2023 22:53:11 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:53:11 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:53:12 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:53:17 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 1 and 2: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:53:17 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 1 and 2: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:53:18 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 1 and 2: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:53:18 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:53:18 [main] [LogUtils] - Get subTitle:[Knowledge Check 1]
+[INFO] 21-12-2023 22:53:18 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:53:18 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:53:18 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@94d11a4555a549c7ae77c879aa4a8567
+[INFO] 21-12-2023 22:53:18 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:53:18 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:53:19 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:53:24 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 3: Working with Structured Tables")]/../../../span/button
+[INFO] 21-12-2023 22:53:24 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 3: Working with Structured Tables")]/../../../span/button
+[INFO] 21-12-2023 22:53:25 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 3: Working with Structured Tables")]/../../../span/button
+[INFO] 21-12-2023 22:53:25 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:53:25 [main] [LogUtils] - Get subTitle:[Content: Working with Structured Tables, Week 3: Discussion]
+[INFO] 21-12-2023 22:53:25 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:53:25 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:53:25 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@31969368ec2640b582ae28c82fe5644f
+[INFO] 21-12-2023 22:53:25 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:53:26 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:53:26 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@4464e3d6c1bb48a78fbdee4a6fda7558
+[INFO] 21-12-2023 22:53:26 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:53:26 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:53:26 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:53:31 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 4: Organizing your Data with Pivot Tables")]/../../../span/button
+[INFO] 21-12-2023 22:53:31 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 4: Organizing your Data with Pivot Tables")]/../../../span/button
+[INFO] 21-12-2023 22:53:32 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 4: Organizing your Data with Pivot Tables")]/../../../span/button
+[INFO] 21-12-2023 22:53:32 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:53:33 [main] [LogUtils] - Get subTitle:[Content: Organizing your Data with Pivot Tables, Week 4: Discussion]
+[INFO] 21-12-2023 22:53:33 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:53:33 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:53:33 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@1a904845e4734ee0897df1adb1788d2c
+[INFO] 21-12-2023 22:53:33 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:53:33 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:53:33 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@285ae8a0fa314bf49b8f1cacc8aa8d65
+[INFO] 21-12-2023 22:53:34 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:53:34 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:53:34 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:53:39 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 3 and 4: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 22:53:39 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 3 and 4: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 22:53:40 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 3 and 4: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 22:53:40 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:53:40 [main] [LogUtils] - Get subTitle:[Practice Challenge 2]
+[INFO] 21-12-2023 22:53:40 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:53:41 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:53:41 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@b9aa0af2b6fb439abdcee194f9915571
+[INFO] 21-12-2023 22:53:41 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:53:41 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:53:41 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:53:46 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 3 and 4: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:53:47 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 3 and 4: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:53:47 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 3 and 4: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:53:47 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:53:48 [main] [LogUtils] - Get subTitle:[Knowledge Check 2]
+[INFO] 21-12-2023 22:53:48 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:53:48 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:53:48 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@93211ab2a57742b3a5568830a96bf61a
+[INFO] 21-12-2023 22:53:48 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:53:48 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:53:48 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:53:53 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 5: Working with External Data")]/../../../span/button
+[INFO] 21-12-2023 22:53:54 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 5: Working with External Data")]/../../../span/button
+[INFO] 21-12-2023 22:53:54 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 5: Working with External Data")]/../../../span/button
+[INFO] 21-12-2023 22:53:54 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:53:55 [main] [LogUtils] - Get subTitle:[Content: Working with External Data, Week 5: Discussion]
+[INFO] 21-12-2023 22:53:55 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:53:55 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:53:55 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@9fa0644c278d42c9a5509bd05e7cc433
+[INFO] 21-12-2023 22:53:55 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:53:55 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:53:55 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@a5519d2f92f545898a1282ac23aa65dc
+[INFO] 21-12-2023 22:53:55 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:53:55 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:53:56 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:54:01 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 6: Building Data Modeling in Excel")]/../../../span/button
+[INFO] 21-12-2023 22:54:01 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 6: Building Data Modeling in Excel")]/../../../span/button
+[INFO] 21-12-2023 22:54:01 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 6: Building Data Modeling in Excel")]/../../../span/button
+[INFO] 21-12-2023 22:54:01 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:54:02 [main] [LogUtils] - Get subTitle:[Content: All About Printing in Excel, Week 6: Discussion]
+[INFO] 21-12-2023 22:54:02 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:54:02 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:54:02 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@8a20b692a06b46bca29d8005c0d3fa18
+[INFO] 21-12-2023 22:54:02 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:54:02 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:54:02 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@da7e01d1aecc41bc8666059fa79d3de3
+[INFO] 21-12-2023 22:54:02 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:54:02 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:54:03 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:54:08 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 5 and 6: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:54:08 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 5 and 6: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:54:09 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 5 and 6: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 22:54:09 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:54:09 [main] [LogUtils] - Get subTitle:[Knowledge Assessment 3]
+[INFO] 21-12-2023 22:54:09 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:54:09 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:54:09 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@9d3f6a87576d48b9bf3403bf732836f6
+[INFO] 21-12-2023 22:54:09 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:54:09 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:54:10 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:54:15 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Final Exam")]/../../../span/button
+[INFO] 21-12-2023 22:54:15 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Final Exam")]/../../../span/button
+[INFO] 21-12-2023 22:54:16 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Final Exam")]/../../../span/button
+[INFO] 21-12-2023 22:54:16 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:54:16 [main] [LogUtils] - Get subTitle:[Exam and Resources]
+[INFO] 21-12-2023 22:54:16 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:54:16 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:54:16 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@d2a4ddcdac19436bb82e73ecdae75e91
+[INFO] 21-12-2023 22:54:16 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:54:16 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:54:17 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:54:22 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Course Wrap Up and Evaluation")]/../../../span/button
+[INFO] 21-12-2023 22:54:22 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Course Wrap Up and Evaluation")]/../../../span/button
+[INFO] 21-12-2023 22:54:23 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Course Wrap Up and Evaluation")]/../../../span/button
+[INFO] 21-12-2023 22:54:23 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:54:23 [main] [LogUtils] - Get subTitle:[Course Wrap Up, Course Exit Survey]
+[INFO] 21-12-2023 22:54:23 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 22:54:23 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:54:23 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@9acdee77a0684d95b1e355f1ff144ef1
+[INFO] 21-12-2023 22:54:23 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 22:54:23 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:54:23 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@84f5ec7f540b4f9f8897fa862610b3a9
+[INFO] 21-12-2023 22:54:23 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 22:54:23 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:54:24 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 22:54:29 [main] [LogUtils] -  --- Ending: EdxAutomation
+[INFO] 21-12-2023 22:54:29 [main] [LogUtils] - Test case:  is passed.
+[INFO] 21-12-2023 22:54:29 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (30e2eddc50d72f6fa1eb18260283049e)
+[INFO] 21-12-2023 22:54:30 [main] [LogUtils] - Screenshot taken: EdxAutomation
+[INFO] 21-12-2023 22:54:30 [main] [LogUtils] - Screenshot taken current URL: https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/home
+[INFO] 21-12-2023 22:54:30 [main] [LogUtils] -  --- Starting: closeDriver
+[INFO] 21-12-2023 22:54:30 [main] [LogUtils] -  --- Ending: closeDriver
+[INFO] 21-12-2023 22:54:30 [main] [LogUtils] - End Suite: Surefire suite
+[INFO] 21-12-2023 23:01:52 [main] [LogUtils] - Starting Suite: Surefire suite
+[INFO] 21-12-2023 23:01:52 [main] [LogUtils] -  --- Starting: BeginWebTest
+[INFO] 21-12-2023 23:01:54 [main] [LogUtils] -  --- Ending: BeginWebTest
+[INFO] 21-12-2023 23:01:54 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-12-2023 23:01:55 [main] [LogUtils] -  --- Starting: EdxAutomation
+[INFO] 21-12-2023 23:01:59 [main] [LogUtils] - Open URL: https://www.edx.org/learn/excel/university-of-british-columbia-excel-for-everyone-data-management
+[INFO] 21-12-2023 23:01:59 [main] [LogUtils] - Create a document
+[INFO] 21-12-2023 23:01:59 [main] [LogUtils] - Navigate to EdxOverview Page
+[INFO] 21-12-2023 23:01:59 [main] [LogUtils] - Scroll to element By.xpath: //div[contains(text(),'weeks')]
+[INFO] 21-12-2023 23:01:59 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),'weeks')]
+[INFO] 21-12-2023 23:01:59 [main] [LogUtils] - Get text of elementBy.xpath: //div[contains(text(),'weeks')]
+[INFO] 21-12-2023 23:01:59 [main] [LogUtils] - 6 weeks
+[INFO] 21-12-2023 23:01:59 [main] [LogUtils] - Verify element visible By.xpath: //div[@class="col-md-7 pr-4"]/h1
+[INFO] 21-12-2023 23:02:00 [main] [LogUtils] - Get text of elementBy.xpath: //div[@class="col-md-7 pr-4"]/h1
+[INFO] 21-12-2023 23:02:00 [main] [LogUtils] - UBCx: Excel for Everyone: Data Management
+[INFO] 21-12-2023 23:02:00 [main] [LogUtils] - Verify element visible By.xpath: //div[@class="p"]
+[INFO] 21-12-2023 23:02:00 [main] [LogUtils] - Get text of elementBy.xpath: //div[@class="p"]
+[INFO] 21-12-2023 23:02:00 [main] [LogUtils] - Further your Excel skills to manage larger datasets and more complex data wrangling, management and modelling.
+[INFO] 21-12-2023 23:02:00 [main] [LogUtils] - Scroll to element By.xpath: //h1[@class="h1 nav-target pt-3 mt-3 pt-sm-5 mt-sm-2"]
+[INFO] 21-12-2023 23:02:05 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Show more' and @id='outcome']
+[INFO] 21-12-2023 23:02:05 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Show more' and @id='outcome']
+[INFO] 21-12-2023 23:02:10 [main] [LogUtils] - Get List Element TextBy.xpath: //div[@class="mt-2 html-data"]/ul/li
+[INFO] 21-12-2023 23:02:10 [main] [LogUtils] - Get List Element TextBy.xpath: //h3[@class="lead font-weight-bold text-primary-100 mt-2 mb-3"]
+[INFO] 21-12-2023 23:02:10 [main] [LogUtils] - Get List Element TextBy.xpath: //span[@width="0"]
+[INFO] 21-12-2023 23:02:10 [main] [LogUtils] - Verify element visible By.xpath: //a[text()="Enroll"]
+[INFO] 21-12-2023 23:02:11 [main] [LogUtils] - Clicked on the element By.xpath: //a[text()="Enroll"]
+[INFO] 21-12-2023 23:02:26 [main] [LogUtils] - Verify element visible By.xpath: //a[text()='Sign in']
+[INFO] 21-12-2023 23:02:26 [main] [LogUtils] - Verify element visible By.xpath: //a[text()='Sign in']
+[INFO] 21-12-2023 23:02:27 [main] [LogUtils] - Clicked on the element By.xpath: //a[text()='Sign in']
+[INFO] 21-12-2023 23:02:27 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="emailOrUsername"]
+[INFO] 21-12-2023 23:02:27 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="emailOrUsername"]
+[INFO] 21-12-2023 23:02:27 [main] [LogUtils] - Clear and Fill luongvo2022 on By.xpath: //input[@name="emailOrUsername"]
+[INFO] 21-12-2023 23:02:27 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="password"]
+[INFO] 21-12-2023 23:02:27 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="password"]
+[INFO] 21-12-2023 23:02:27 [main] [LogUtils] - Clear and Fill kdAVt6`m on By.xpath: //input[@name="password"]
+[INFO] 21-12-2023 23:02:27 [main] [LogUtils] - Verify element visible By.xpath: //span[text()="Sign in"]
+[INFO] 21-12-2023 23:02:28 [main] [LogUtils] - Clicked on the element By.xpath: //span[text()="Sign in"]
+[INFO] 21-12-2023 23:02:35 [main] [LogUtils] - Verify element visible By.name: audit_mode
+[INFO] 21-12-2023 23:02:38 [main] [LogUtils] - Clicked on the element By.name: audit_mode
+[INFO] 21-12-2023 23:02:53 [main] [LogUtils] - Get List Element TextBy.xpath: //div[@class="col-10 ml-3 p-0 font-weight-bold text-dark-500"]/span[@class="align-middle"]
+[INFO] 21-12-2023 23:02:53 [main] [LogUtils] - Get list Title:[Getting Started, Materials and Resources, Week 1: Introduction, Week 2: Data Cleaning & Maintenance, Weeks 1 and 2: Practice Challenge, Weeks 1 and 2: Knowledge Assessment, Week 3: Working with Structured Tables, Week 4: Organizing your Data with Pivot Tables, Weeks 3 and 4: Practice Challenge, Weeks 3 and 4: Knowledge Assessment, Week 5: Working with External Data, Week 6: Building Data Modeling in Excel, Weeks 5 and 6: Knowledge Assessment, Final Exam, Course Wrap Up and Evaluation]
+[INFO] 21-12-2023 23:02:53 [main] [LogUtils] - Get List Element TextBy.xpath: //div[@class="col-10 ml-3 p-0 font-weight-bold text-dark-500"]/span[@class="align-middle"]
+[INFO] 21-12-2023 23:02:53 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Getting Started")]/../../../span/button
+[INFO] 21-12-2023 23:02:53 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Getting Started")]/../../../span/button
+[INFO] 21-12-2023 23:02:54 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Getting Started")]/../../../span/button
+[INFO] 21-12-2023 23:02:54 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:02:55 [main] [LogUtils] - Get subTitle:[About Excel for Everyone: Data Management, About edX]
+[INFO] 21-12-2023 23:02:55 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:02:55 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:02:55 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@8ebcf5a6640d4e0aa9db554d3083fbc4
+[INFO] 21-12-2023 23:02:55 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:02:55 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 23:02:55 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@d5410fce346b49bfbd261c11dcec6c91
+[INFO] 21-12-2023 23:02:55 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 23:02:55 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:02:56 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:03:01 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Materials and Resources")]/../../../span/button
+[INFO] 21-12-2023 23:03:01 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Materials and Resources")]/../../../span/button
+[INFO] 21-12-2023 23:03:01 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Materials and Resources")]/../../../span/button
+[INFO] 21-12-2023 23:03:01 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:03:02 [main] [LogUtils] - Get subTitle:[Resources]
+[INFO] 21-12-2023 23:03:02 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:03:02 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:03:02 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@2f872066c356486c99fb8d6973186a0a
+[INFO] 21-12-2023 23:03:02 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:03:02 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:03:03 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:03:08 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 1: Introduction")]/../../../span/button
+[INFO] 21-12-2023 23:03:08 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 1: Introduction")]/../../../span/button
+[INFO] 21-12-2023 23:03:08 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 1: Introduction")]/../../../span/button
+[INFO] 21-12-2023 23:03:08 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:03:09 [main] [LogUtils] - Get subTitle:[Content: Introduction, Week 1: Discussion]
+[INFO] 21-12-2023 23:03:09 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:03:09 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:03:09 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@47eb22949eb742c982c3dcd709078e73
+[INFO] 21-12-2023 23:03:09 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:03:09 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 23:03:09 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@7be7a9be700d4df896c58512a5a89d08
+[INFO] 21-12-2023 23:03:09 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 23:03:09 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:03:10 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:03:15 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 2: Data Cleaning & Maintenance")]/../../../span/button
+[INFO] 21-12-2023 23:03:15 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 2: Data Cleaning & Maintenance")]/../../../span/button
+[INFO] 21-12-2023 23:03:16 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 2: Data Cleaning & Maintenance")]/../../../span/button
+[INFO] 21-12-2023 23:03:16 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:03:16 [main] [LogUtils] - Get subTitle:[Content: Data Cleaning & Maintenance, ]
+[INFO] 21-12-2023 23:03:16 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:03:16 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:03:16 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@861a3d6fed3f487fb926a35ae395d555
+[INFO] 21-12-2023 23:03:16 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:03:16 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 23:03:16 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@51f6fbd05ca049b8a137b0793a4d4477
+[INFO] 21-12-2023 23:03:16 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 23:03:16 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:03:17 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:03:22 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 1 and 2: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 23:03:22 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 1 and 2: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 23:03:22 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 1 and 2: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 23:03:22 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:03:23 [main] [LogUtils] - Get subTitle:[Practice Challenge 1]
+[INFO] 21-12-2023 23:03:23 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:03:23 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:03:23 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@012e42df6fa447b39d1ecb4a967fdf9b
+[INFO] 21-12-2023 23:03:23 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:03:23 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:03:24 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:03:29 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 1 and 2: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 23:03:29 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 1 and 2: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 23:03:30 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 1 and 2: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 23:03:30 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:03:30 [main] [LogUtils] - Get subTitle:[Knowledge Check 1]
+[INFO] 21-12-2023 23:03:30 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:03:30 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:03:30 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@94d11a4555a549c7ae77c879aa4a8567
+[INFO] 21-12-2023 23:03:30 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:03:30 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:03:31 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:03:36 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 3: Working with Structured Tables")]/../../../span/button
+[INFO] 21-12-2023 23:03:36 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 3: Working with Structured Tables")]/../../../span/button
+[INFO] 21-12-2023 23:03:37 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 3: Working with Structured Tables")]/../../../span/button
+[INFO] 21-12-2023 23:03:37 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:03:38 [main] [LogUtils] - Get subTitle:[Content: Working with Structured Tables, Week 3: Discussion]
+[INFO] 21-12-2023 23:03:38 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:03:38 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:03:38 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@31969368ec2640b582ae28c82fe5644f
+[INFO] 21-12-2023 23:03:38 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:03:38 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 23:03:38 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@4464e3d6c1bb48a78fbdee4a6fda7558
+[INFO] 21-12-2023 23:03:38 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 23:03:38 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:03:39 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:03:44 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 4: Organizing your Data with Pivot Tables")]/../../../span/button
+[INFO] 21-12-2023 23:03:44 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 4: Organizing your Data with Pivot Tables")]/../../../span/button
+[INFO] 21-12-2023 23:03:44 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 4: Organizing your Data with Pivot Tables")]/../../../span/button
+[INFO] 21-12-2023 23:03:44 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:03:45 [main] [LogUtils] - Get subTitle:[Content: Organizing your Data with Pivot Tables, Week 4: Discussion]
+[INFO] 21-12-2023 23:03:45 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:03:45 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:03:45 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@1a904845e4734ee0897df1adb1788d2c
+[INFO] 21-12-2023 23:03:45 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:03:45 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 23:03:45 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@285ae8a0fa314bf49b8f1cacc8aa8d65
+[INFO] 21-12-2023 23:03:45 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 23:03:46 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:03:46 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:03:51 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 3 and 4: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 23:03:51 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 3 and 4: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 23:03:52 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 3 and 4: Practice Challenge")]/../../../span/button
+[INFO] 21-12-2023 23:03:52 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:03:52 [main] [LogUtils] - Get subTitle:[Practice Challenge 2]
+[INFO] 21-12-2023 23:03:52 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:03:52 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:03:52 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@b9aa0af2b6fb439abdcee194f9915571
+[INFO] 21-12-2023 23:03:53 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:03:53 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:03:53 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:03:58 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 3 and 4: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 23:03:58 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 3 and 4: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 23:03:59 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 3 and 4: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 23:03:59 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:03:59 [main] [LogUtils] - Get subTitle:[Knowledge Check 2]
+[INFO] 21-12-2023 23:03:59 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:03:59 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:04:00 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@93211ab2a57742b3a5568830a96bf61a
+[INFO] 21-12-2023 23:04:00 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:04:00 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:04:00 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:04:05 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 5: Working with External Data")]/../../../span/button
+[INFO] 21-12-2023 23:04:05 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 5: Working with External Data")]/../../../span/button
+[INFO] 21-12-2023 23:04:06 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 5: Working with External Data")]/../../../span/button
+[INFO] 21-12-2023 23:04:06 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:04:06 [main] [LogUtils] - Get subTitle:[Content: Working with External Data, Week 5: Discussion]
+[INFO] 21-12-2023 23:04:06 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:04:07 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:04:07 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@9fa0644c278d42c9a5509bd05e7cc433
+[INFO] 21-12-2023 23:04:07 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:04:07 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 23:04:07 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@a5519d2f92f545898a1282ac23aa65dc
+[INFO] 21-12-2023 23:04:07 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 23:04:07 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:04:07 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:04:12 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 6: Building Data Modeling in Excel")]/../../../span/button
+[INFO] 21-12-2023 23:04:13 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Week 6: Building Data Modeling in Excel")]/../../../span/button
+[INFO] 21-12-2023 23:04:13 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Week 6: Building Data Modeling in Excel")]/../../../span/button
+[INFO] 21-12-2023 23:04:13 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:04:14 [main] [LogUtils] - Get subTitle:[Content: All About Printing in Excel, Week 6: Discussion]
+[INFO] 21-12-2023 23:04:14 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:04:14 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:04:14 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@8a20b692a06b46bca29d8005c0d3fa18
+[INFO] 21-12-2023 23:04:14 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:04:14 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 23:04:14 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@da7e01d1aecc41bc8666059fa79d3de3
+[INFO] 21-12-2023 23:04:14 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 23:04:14 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:04:15 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:04:20 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 5 and 6: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 23:04:20 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Weeks 5 and 6: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 23:04:21 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Weeks 5 and 6: Knowledge Assessment")]/../../../span/button
+[INFO] 21-12-2023 23:04:21 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:04:21 [main] [LogUtils] - Get subTitle:[Knowledge Assessment 3]
+[INFO] 21-12-2023 23:04:21 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:04:21 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:04:21 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@9d3f6a87576d48b9bf3403bf732836f6
+[INFO] 21-12-2023 23:04:21 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:04:21 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:04:22 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:04:27 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Final Exam")]/../../../span/button
+[INFO] 21-12-2023 23:04:27 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Final Exam")]/../../../span/button
+[INFO] 21-12-2023 23:04:28 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Final Exam")]/../../../span/button
+[INFO] 21-12-2023 23:04:28 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:04:28 [main] [LogUtils] - Get subTitle:[Exam and Resources]
+[INFO] 21-12-2023 23:04:28 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:04:28 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:04:28 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@d2a4ddcdac19436bb82e73ecdae75e91
+[INFO] 21-12-2023 23:04:28 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:04:29 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:04:29 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:04:34 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Course Wrap Up and Evaluation")]/../../../span/button
+[INFO] 21-12-2023 23:04:34 [main] [LogUtils] - Verify element visible By.xpath: //*[contains(text(),"Course Wrap Up and Evaluation")]/../../../span/button
+[INFO] 21-12-2023 23:04:35 [main] [LogUtils] - Clicked on the element By.xpath: //*[contains(text(),"Course Wrap Up and Evaluation")]/../../../span/button
+[INFO] 21-12-2023 23:04:35 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:04:35 [main] [LogUtils] - Get subTitle:[Course Wrap Up, Course Exit Survey]
+[INFO] 21-12-2023 23:04:35 [main] [LogUtils] - Get List Element TextBy.xpath: (//span/a[contains(@href, '/course/')])
+[INFO] 21-12-2023 23:04:35 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:04:35 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@9acdee77a0684d95b1e355f1ff144ef1
+[INFO] 21-12-2023 23:04:35 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[1]
+[INFO] 21-12-2023 23:04:36 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 23:04:36 [main] [LogUtils] - Get Hyperlink:
+https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/block-v1:UBCx+Excel1.2x+1T2020+type@sequential+block@84f5ec7f540b4f9f8897fa862610b3a9
+[INFO] 21-12-2023 23:04:36 [main] [LogUtils] - Verify element visible By.xpath: (//span/a[contains(@href, '/course/')])[2]
+[INFO] 21-12-2023 23:04:36 [main] [LogUtils] - Verify element visible By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:04:36 [main] [LogUtils] - Clicked on the element By.xpath: //button[@aria-label="Close"]/span
+[INFO] 21-12-2023 23:04:41 [main] [LogUtils] -  --- Ending: EdxAutomation
+[INFO] 21-12-2023 23:04:41 [main] [LogUtils] - Test case:  is passed.
+[INFO] 21-12-2023 23:04:41 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (873bcf452f8a8375947cb3554358a9e4)
+[INFO] 21-12-2023 23:04:42 [main] [LogUtils] - Screenshot taken: EdxAutomation
+[INFO] 21-12-2023 23:04:42 [main] [LogUtils] - Screenshot taken current URL: https://learning.edx.org/course/course-v1:UBCx+Excel1.2x+1T2020/home
+[INFO] 21-12-2023 23:04:42 [main] [LogUtils] -  --- Starting: closeDriver
+[INFO] 21-12-2023 23:04:42 [main] [LogUtils] -  --- Ending: closeDriver
+[INFO] 21-12-2023 23:04:42 [main] [LogUtils] -  --- Starting: BeginWebTest
+[INFO] 21-12-2023 23:04:43 [main] [LogUtils] -  --- Ending: BeginWebTest
+[INFO] 21-12-2023 23:04:43 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-12-2023 23:04:43 [main] [LogUtils] -  --- Starting: failTC
+[INFO] 21-12-2023 23:04:45 [main] [LogUtils] - Open URL: https://www.edx.org/learn/excel/university-of-british-columbia-excel-for-everyone-data-management
+[INFO] 21-12-2023 23:04:45 [main] [LogUtils] - Navigate to EdxOverview Page
+[INFO] 21-12-2023 23:04:45 [main] [LogUtils] - Verify element visible By.xpath: //div[@class="col-md-7 pr-4"]/h1
+[INFO] 21-12-2023 23:04:45 [main] [LogUtils] - Get text of elementBy.xpath: //div[@class="col-md-7 pr-4"]/h1
+[INFO] 21-12-2023 23:04:46 [main] [LogUtils] - UBCx: Excel for Everyone: Data Management
+[INFO] 21-12-2023 23:04:51 [main] [LogUtils] - Verify element visible By.xpath: //a[text()='Sign in']
+[INFO] 21-12-2023 23:04:51 [main] [LogUtils] - Verify element visible By.xpath: //a[text()='Sign in']
+[INFO] 21-12-2023 23:04:54 [main] [LogUtils] - Clicked on the element By.xpath: //a[text()='Sign in']
+[INFO] 21-12-2023 23:04:56 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="emailOrUsername"]
+[INFO] 21-12-2023 23:04:56 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="emailOrUsername"]
+[INFO] 21-12-2023 23:04:56 [main] [LogUtils] - Clear and Fill luongvo2022 on By.xpath: //input[@name="emailOrUsername"]
+[INFO] 21-12-2023 23:04:56 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="password"]
+[INFO] 21-12-2023 23:04:56 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="password"]
+[INFO] 21-12-2023 23:04:56 [main] [LogUtils] - Clear and Fill kdAVt6`m on By.xpath: //input[@name="password"]
+[INFO] 21-12-2023 23:04:57 [main] [LogUtils] - Verify element visible By.xpath: //span[text()="Sign in"]
+[INFO] 21-12-2023 23:04:57 [main] [LogUtils] - Clicked on the element By.xpath: //span[text()="Sign in"]
+[ERROR] 21-12-2023 23:05:18 [main] [LogUtils] - Element not exist. By.name: audit_mode
+[INFO] 21-12-2023 23:05:18 [main] [LogUtils] -  --- Ending: failTC
+[ERROR] 21-12-2023 23:05:18 [main] [LogUtils] - Test case:  is failed.
+[INFO] 21-12-2023 23:05:18 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (dabcf1749901a5d1d397e8fe34b2a776)
+[INFO] 21-12-2023 23:05:18 [main] [LogUtils] - Screenshot taken: failTC
+[INFO] 21-12-2023 23:05:18 [main] [LogUtils] - Screenshot taken current URL: https://home.edx.org/
+[ERROR] 21-12-2023 23:05:18 [main] [LogUtils] - FAILED !! Screenshot for test case: failTC
+[ERROR] 21-12-2023 23:05:18 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.name: audit_mode
+[INFO] 21-12-2023 23:05:18 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (dabcf1749901a5d1d397e8fe34b2a776)
+[INFO] 21-12-2023 23:05:18 [main] [LogUtils] - Screenshot taken: failTC
+[INFO] 21-12-2023 23:05:18 [main] [LogUtils] - Screenshot taken current URL: https://home.edx.org/
+[INFO] 21-12-2023 23:05:18 [main] [LogUtils] -  --- Starting: closeDriver
+[INFO] 21-12-2023 23:05:19 [main] [LogUtils] -  --- Ending: closeDriver
+[INFO] 21-12-2023 23:05:19 [main] [LogUtils] - End Suite: Surefire suite
