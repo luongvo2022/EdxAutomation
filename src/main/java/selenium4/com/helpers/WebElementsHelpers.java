@@ -968,7 +968,7 @@ public class WebElementsHelpers {
 	@Step("Get List Element {0}")
 	public static List<String> getListElementsText(By by) {
 		smartWait();
-
+		LogUtils.info("Get List Element Text"+by);
 		WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(),
 				Duration.ofSeconds(FrameworkConstants.WAIT_EXPLICIT), Duration.ofMillis(500));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(by));
@@ -2229,6 +2229,8 @@ public class WebElementsHelpers {
 		Actions action = new Actions(DriverManager.getDriver());
 		WebElement e = waitForElementVisible(by);
 		action.moveToElement(e).build().perform();
+		LogUtils.info("Get text of element"+by);
+		LogUtils.info(e.getText().trim());
 		return e.getText().trim();
 	}
 

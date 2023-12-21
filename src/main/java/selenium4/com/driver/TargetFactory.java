@@ -20,7 +20,7 @@ public class TargetFactory {
 		switch (target) {
 		case LOCAL:
 			// Create new driver from Enum setup in BrowserFactory class
-			System.out.println("Luong debug");
+//			System.out.println("Luong debug");
 			webdriver = BrowserFactory.valueOf(FrameworkConstants.BROWSER.toUpperCase()).createDriver();
 			break;
 		case REMOTE:

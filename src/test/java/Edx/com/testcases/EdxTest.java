@@ -3,18 +3,13 @@ package Edx.com.testcases;
 import org.testng.annotations.*;
 import Edx.com.common.BaseTest;
 import Edx.com.common.WordDocumentWriter;
-import Edx.com.pages.EdxLoginPage;
-import Edx.com.pages.EdxOverviewPage;
-import static selenium4.com.constants.FrameworkConstants.COURSE_URL;
+import Edx.com.pages.*;
+import static selenium4.com.constants.FrameworkConstants.*;
 import static selenium4.com.helpers.WebElementsHelpers.*;
-import selenium4.com.helpers.ScreenshotHelpers;
 
 
-//@Epic("Regression Test")
-//@Feature("Edx Test")
 public class EdxTest extends BaseTest {
-	public String userName="luongvo2022";
-	public String password="kdAVt6`m";
+	
 	@Test(priority = 0)
 	public void EdxAutomation() {
 		String url;
@@ -24,25 +19,30 @@ public class EdxTest extends BaseTest {
 			url = COURSE_URL.toLowerCase();
 		}
 		getURL(url);
-		EdxOverviewPage edxOverview= new EdxOverviewPage();
+		EdxFactory edxfactory=new EdxFactory();
 		WordDocumentWriter doc=new WordDocumentWriter();
-		String durationCourse=edxOverview.getDurationCourse();
-		doc.addCourseName(edxOverview.getCourseName());
-		doc.addCourseSummary(edxOverview.getCourseSummary());
+		EdxPage edx=edxfactory.createPage(EdxPageType.overView);
+		String durationCourse=edx.getInfor(EdxContentType.DurationCourse);
+		doc.addCourseName(edx.getInfor(EdxContentType.CourseName));
+		doc.addCourseSummary(edx.getInfor(EdxContentType.CourseSummary));
 		//Whatlearn
-		doc.addWhatLearn(edxOverview.getWhatLearn());
+		doc.addWhatLearn(edx.getListInfor(EdxContentType.WhatLearn));
 		//Intructor
-		doc.addIntructor(edxOverview.getIntructor_FullName(), edxOverview.getIntructor_Infor());
-		EdxLoginPage loginPage=edxOverview.clickEnroll();
+		doc.addIntructor(edx.getListInfor(EdxContentType.Intructor_FullName), edx.getListInfor(EdxContentType.Intructor_Info));
+		edx.takeAction(EdxActionType.clickEnroll);
+		edx=edxfactory.createPage(EdxPageType.login);
 		sleep(10);
-		loginPage.LoginToEdx(userName, password);
-		ScreenshotHelpers.getScreenshotFile("screenshotUsingRobotClass_BeforeClick");
-		loginPage.clickContinueButton();
-		doc.addCourseContent();
+		edx.takeAction(EdxActionType.login);
+		
+//		loginPage.LoginToEdx(userName, password);
+//		EdxCourseContentPage courseContent=loginPage.clickContinueButton();
+		edx=edxfactory.createPage(EdxPageType.courseContent);
+		doc.addCourseContent(edx);
 		doc.addDurationCourse(durationCourse);
 		doc.saveToFile("OutputFiles/course1.docx");
 //	    System.out.println(edx.getIntructor_FullName().get(0));
 		
+	
 	}
 	
 	

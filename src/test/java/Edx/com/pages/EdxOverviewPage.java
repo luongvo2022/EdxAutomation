@@ -1,12 +1,10 @@
 package Edx.com.pages;
 import static selenium4.com.helpers.WebElementsHelpers.*;
-
-import java.util.ArrayList;
 import java.util.List;
-
+import selenium4.com.utils.LogUtils;
 import org.openqa.selenium.By;
 
-public class EdxOverviewPage {
+public class EdxOverviewPage extends EdxPage {
 	public By CourseName = By.xpath("//div[@class=\"col-md-7 pr-4\"]/h1");
 	public By CourseSummary = By.xpath("//div[@class=\"p\"]");
 	public By WhatLearn = By.xpath("//h1[@class=\"h1 nav-target pt-3 mt-3 pt-sm-5 mt-sm-2\"]");
@@ -17,7 +15,47 @@ public class EdxOverviewPage {
 	public By enrollButton=By.xpath("//a[text()=\"Enroll\"]");
 	public By CourseDuration=By.xpath("//div[contains(text(),'weeks')]");
 	public EdxOverviewPage() {
+		LogUtils.info("Navigate to EdxOverview Page");
+	}
+	@Override
+	public void takeAction(EdxActionType action) {
+		switch(action){
+			case clickEnroll:
+				clickEnroll();
+				break;
+			default:
+				LogUtils.info("Cannot run action"+action);
+		}
+	}
+	@Override
+	public String getInfor(EdxContentType type) {
+		switch(type) {
+			case CourseName:
+				return getCourseName();
+			case CourseSummary:
+				return getCourseSummary();
+			case DurationCourse:
+				return getDurationCourse();
+			default:
+				LogUtils.info("Cannot get infor"+type);
+				return null;
+		}
 		
+	}
+	@Override
+	public List<String> getListInfor(EdxContentType type){
+		switch(type) {
+			case WhatLearn:
+				return getWhatLearn();
+			case Intructor_FullName:
+				return getIntructor_FullName();
+			case Intructor_Info:
+				return getIntructor_Infor();
+
+			default:
+				return null;
+		
+		}
 	}
 	
 	public String getCourseName() {
@@ -56,12 +94,12 @@ public class EdxOverviewPage {
 		return getListElementsText(Intructor_Info);
 	}
 	
-	public EdxLoginPage clickEnroll() {
+	public void clickEnroll() {
 //		scrollToElementToTop(enrollButton);
 		
 		clickElement(enrollButton);
 		smartWait();
-		return new EdxLoginPage();
+		
 	}
 	public String getDurationCourse() {
 		smartWait();

@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import selenium4.com.driver.DriverManager;
 import selenium4.com.utils.LogUtils;
 
-public class LoginPage {
+public class LoginPage  {
 
 	public By inputUserName = By.name("uid");
 	public By inputPassword = By.name("password");

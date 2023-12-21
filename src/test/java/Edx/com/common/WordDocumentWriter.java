@@ -1,19 +1,19 @@
 package Edx.com.common;
-import org.apache.poi.xwpf.usermodel.UnderlinePatterns;
-import org.apache.poi.xwpf.usermodel.XWPFDocument;
-import org.apache.poi.xwpf.usermodel.XWPFParagraph;
-import org.apache.poi.xwpf.usermodel.XWPFRun;
+import org.apache.poi.xwpf.usermodel.*;
+import org.openxmlformats.schemas.drawingml.x2006.main.CTHyperlink;
 import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTDecimalNumber;
 import org.testng.annotations.Optional;
-
-import com.vladsch.flexmark.ast.Paragraph;
+import selenium4.com.utils.LogUtils;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.math.BigInteger;
 import java.util.List;
 
+import Edx.com.pages.EdxActionType;
+import Edx.com.pages.EdxContentType;
 import Edx.com.pages.EdxCourseContentPage;
+import Edx.com.pages.EdxPage;
 
 public class WordDocumentWriter {
 	private XWPFDocument document;
@@ -21,10 +21,11 @@ public class WordDocumentWriter {
 	private static final double sizeDefault=13.5;
 	private static final String colorDefault="0f0b01";
 	private static final String blueColor="34a0c4";
+	private static final String url_color="61bbd8";
 	public WordDocumentWriter() {
 		// TODO Auto-generated constructor stub
 		document = new XWPFDocument();
-
+		LogUtils.info("Create a document");
 	}
 	public XWPFParagraph addContent(String content, @Optional(fontDefault) String fontName, double fontSize, boolean isBold, boolean isItalic, boolean isUnderline, String color) {
         XWPFParagraph paragraph = document.createParagraph();
@@ -146,29 +147,33 @@ public class WordDocumentWriter {
 		
 	}
 	
-	public void addCourseContent() {
+	public void addCourseContent(EdxPage courseContent ) {
 		this.addContent("Course contents:", fontDefault, sizeDefault, true, false, false, blueColor);
-		EdxCourseContentPage courseContent=new EdxCourseContentPage();
-		List<String> listTitle=courseContent.getListTitle_Content();
+		List<String> listTitle=courseContent.getListInfor(EdxContentType.Title_Content);
 		XWPFParagraph paragraph;
 		int i=1;
 		for (String title: listTitle) {
 			 i++;
+			 int j=1;
 			 paragraph = document.createParagraph();
              XWPFRun run = paragraph.createRun();
              run.setText(title);
 //             run.setBold(true);
              run.setFontSize(sizeDefault);
-             courseContent.clickExpland(title);
-             for (String item :courseContent.getListSubTitle_content()) {
-                 paragraph = document.createParagraph();
+             courseContent.takeAction(EdxActionType.clickExpland,title);
+             for (String item :courseContent.getListInfor(EdxContentType.SubTitle_content)) {
+                 
+            	 paragraph = document.createParagraph();
                  paragraph.setNumID(BigInteger.valueOf(i)); // Set numbering to "1" for each section
                  paragraph.setNumILvl(BigInteger.valueOf(1)); // Set indentation level to "0"
-                 XWPFRun itemRun = paragraph.createRun();
-                 itemRun.setText(item);
-                 run.setFontSize(sizeDefault);
+                 
+                 addHyperlink(paragraph, item, courseContent.getInfor(EdxContentType.URLofCourseContent, j));
+//                 XWPFRun itemRun = paragraph.createRun();
+//                 itemRun.setText(item);
+//                 run.setFontSize(sizeDefault);
+                 j++;
              }
-             courseContent.clickCollapse();
+             courseContent.takeAction(EdxActionType.clickCollapse);
              
 		}
 	}
@@ -180,6 +185,13 @@ public class WordDocumentWriter {
 		this.addContent(this.addContent("Duration Course:", fontDefault, sizeDefault, true, false, false, colorDefault), content, fontDefault, sizeDefault, colorDefault);
 	}
 	
+	public void addHyperlink(XWPFParagraph paragraph, String Text, String hyperlink) {
+        // Create a hyperlink run
+        XWPFRun run = paragraph.createHyperlinkRun(hyperlink);
+        run.setUnderline(UnderlinePatterns.SINGLE);
+        run.setColor(url_color);
+        run.setText(Text);
+    }
 	public void saveToFile(String filePath) {
         try (FileOutputStream fos = new FileOutputStream(filePath)) {
             document.write(fos);

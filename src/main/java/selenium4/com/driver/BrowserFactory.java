@@ -88,6 +88,7 @@ public enum BrowserFactory {
 			prefs.put("credentials_enable_service", false);
 			prefs.put("profile.password_manager_enabled", false);
 			prefs.put("autofill.profile_enabled", false);
+			prefs.put("user_experience_metric.personalization_data_consent_enabled", Boolean.valueOf(true));
 			options.setExperimentalOption("prefs", prefs);
 			options.addArguments("--disable-extensions");
 			options.addArguments("--disable-infobars");

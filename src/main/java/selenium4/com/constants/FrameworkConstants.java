@@ -54,6 +54,8 @@ public final class FrameworkConstants {
 	public static final String EXTENT_REPORT_FILE_NAME = EXTENT_REPORT_NAME + ".html";
 	public static String EXTENT_REPORT_FILE_PATH = EXTENT_REPORT_FOLDER_PATH + File.separator + EXTENT_REPORT_FILE_NAME;
 	public static final String COURSE_URL = PropertiesHelpers.getValue("COURSE_URL");
+	public static final String userName = PropertiesHelpers.getValue("userName");
+	public static final String password = PropertiesHelpers.getValue("password");
 	public static final String YES = "yes";
 	public static final String NO = "no";
 
